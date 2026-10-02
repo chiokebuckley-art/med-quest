@@ -1,0 +1,22 @@
+{
+  "tests": 25,
+  "localBrowser": {
+    "layers": [
+      "Skin",
+      "Muscle",
+      "Bone",
+      "Organs",
+      "Pipes",
+      "Signals"
+    ],
+    "ready": true,
+    "consoleErrors": 0,
+    "consoleWarnings": 0,
+    "phoneWidth": 390,
+    "phoneScrollWidth": 390,
+    "bloodCells": 160,
+    "pausePixelsChanged": 192,
+    "movementPixelsChanged": 948792
+  },
+  "notes": "Educationally simplified anatomy; enlarged red cells, illustrative vessel paths and tempos. Jointed arm, chest breathing, lung expansion and heartbeat. Paused canvas crop compared over separate observations."
+}

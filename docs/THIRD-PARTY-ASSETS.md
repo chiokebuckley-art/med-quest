@@ -26,3 +26,5 @@ The home hero and ten system lesson images were generated for Med Quest using th
 ## Browser runtime libraries
 
 Three.js is MIT-licensed by the three.js authors. The Meshopt decoder is MIT-licensed by Arseny Kapoulkine. Full notices ship with the production site at `assets/licenses/THREE-LICENSE.txt` and `assets/licenses/MESHOPTIMIZER-LICENSE.txt`. The locked npm dependencies retain their own license files for source development.
+
+The lab motion update retains native CC0 MakeHuman joint influences in the skin mesh as `_MQ_ARM_WEIGHTS`. The runtime applies elbow and shoulder movement to the surface and a matching body-space pose to the internal layers and circulation demonstration.

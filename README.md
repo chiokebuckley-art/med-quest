@@ -40,7 +40,7 @@ The production build uses `/med-quest/`. See DEPLOY.md and SHIP-NOTES.md for dep
 
 Every mission follows Notice → Predict → Act → Observe → Journal, with ordered tool gates, gentle redo, pretend vitals and two required journal answers. Emergency includes breathing trouble, a head bump and an unsafe roadside accident. Its decisions emphasize safe distance and help, not clinical procedures. Emergency records are separate from the ten system discoveries.
 
-Arcade unlocks after saving the corresponding Learn journal and awards one to three practice stars. Free Lab offers Skin, Muscle, Bone, Organs, Pipes and Signals; clickable parts and keyboard labels; rotation, zoom and front reset; chest breathing, heartbeat and contained vessel flow; and three pretend fair-test comparisons.
+Arcade unlocks after saving the corresponding Learn journal and awards one to three practice stars. Free Lab offers Skin, Muscle, Bone, Organs, Pipes and Signals; clickable parts and keyboard labels; rotation, zoom and front reset; jointed arm bending, chest breathing, heartbeat and visible red blood cells in closed body-and-lung circulation; and three pretend fair-test comparisons. Bend arm, Hold bend and Breathe change the demonstration. Pause motion freezes it, Slow flow slows cells, and Follow cells opens a close-up. Blood is always red; blue vessels distinguish return routes. Cells are enlarged and speeds and vessel paths are simplified for learning. Reduced-motion preferences start the demonstration paused.
 
 ## Controls and saved progress
 
