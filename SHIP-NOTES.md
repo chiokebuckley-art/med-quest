@@ -85,3 +85,7 @@ Replaced the cartoon arm in **Learn / Skin & soft tissue / Patch the Cut on the 
 All ten playable system missions now display detailed human/anatomy artwork. Free Lab adds ten animated close-up views, including textured red cells moving inside the vessel scene, pulsing heart tissue, subtle lung expansion, muscle contraction, food/fluid paths and nerve signals. Pause, slow motion and restart are available; reduced-motion preferences pause the close-ups by default. The previous 3D body remains available below the close-ups.
 
 27 automated checks and build passed. Browser verification covered all ten mission images and lab tabs, 390px layout without horizontal overflow, pause/slow controls, physical hand-patch and bone-fragment drags, and airway selection. These are detailed illustrations with animated teaching overlays, not full deformable organ simulations or new photorealistic 3D human geometry.
+
+## Skin surface interaction update — October 2, 2026
+
+Replaced blue cleaning circles, colored swab dots and numbered stitch circles with a continuous wipeable gel layer, swab sheen and individual tied threads. Sponge and swab follow the pointer. Thread updates appear while dragging. Small stitch guide marks and keyboard controls preserve usability. A textured dressing finishes the board. Verified physical wiping, direct stitch taps, continuous stitching drag, phone layout and completion; 27 automated checks pass.

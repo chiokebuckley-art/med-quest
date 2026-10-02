@@ -75,3 +75,5 @@ The Skin lesson now uses a photorealistic generated Black adult forearm and hand
 All ten mission boards use detailed anatomy artwork. The bone lesson switches from the Black adult forearm to a detailed bone view; the defense lesson uses the human hand for washing and an immune-cell exhibit for the cell sequence. The Free Lab opens with ten animated close-ups, with independent pause, slow motion and restart controls. The existing rotatable 3D body remains below these views. Animation is illustrative: enlarged cells and motion overlays are not physiological measurements.
 
 Verification: 27 automated checks; ten mission previews; ten lab views at desktop and 390px; physical bone-fragment and hand-patch drags; airway hit target; pause, slow motion and clean browser console. See `docs/LIVING-ANATOMY-CHECKS.json`.
+
+The Skin lesson now clears a continuous gel smear as you wipe, shows swab sheen, and places four tied thread stitches directly on the realistic arm. Small stitch guides replace the numbered circles; keyboard controls remain available. See `docs/SKIN-SURFACE-CHECKS.json`.
