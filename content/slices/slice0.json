@@ -1,0 +1,10 @@
+{
+  "system": "S1",
+  "thresholds": {
+    "clean": 90,
+    "swab": 85,
+    "dotPathError": 24,
+    "snapRadius": 48
+  },
+  "journalMinimum": 2
+}

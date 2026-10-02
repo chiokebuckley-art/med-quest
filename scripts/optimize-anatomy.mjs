@@ -1,0 +1,15 @@
+import {NodeIO} from '@gltf-transform/core';
+import {ALL_EXTENSIONS} from '@gltf-transform/extensions';
+import {meshopt, dedup} from '@gltf-transform/functions';
+import {MeshoptEncoder,MeshoptDecoder} from 'meshoptimizer';
+import {readFile,writeFile,stat} from 'node:fs/promises';
+await MeshoptEncoder.ready;await MeshoptDecoder.ready;
+const io=new NodeIO().registerExtensions(ALL_EXTENSIONS).registerDependencies({'meshopt.encoder':MeshoptEncoder,'meshopt.decoder':MeshoptDecoder});
+const path='public/assets/models/MQ_human_anatomy.glb';
+const document=await io.read(path);
+await document.transform(dedup(),meshopt({encoder:MeshoptEncoder,level:'high'}));
+await io.write(path,document);
+const manifest=JSON.parse(await readFile('docs/HUMAN-MODEL-MANIFEST.json','utf8'));
+manifest.bytes=(await stat(path)).size;manifest.compression='EXT_meshopt_compression';
+await writeFile('docs/HUMAN-MODEL-MANIFEST.json',JSON.stringify(manifest,null,2)+'\n');
+console.log(`Human asset: ${manifest.bytes} bytes`);

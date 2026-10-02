@@ -1,0 +1,1 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 80"><rect width="400" height="80" rx="32" fill="#176d73"/><path d="M0 40h400" stroke="#c2efda" stroke-width="10" stroke-dasharray="15 30"><animate attributeName="stroke-dashoffset" from="45" to="0" dur="2s" repeatCount="indefinite"/></path></svg>
