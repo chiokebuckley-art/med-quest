@@ -33,3 +33,13 @@ button{min-height:44px}.tool.locked{opacity:.65}.tool-lock{display:block;font-si
 @media(prefers-reduced-motion:reduce){.tissue-heart,.tissue-lungs,.tissue-muscle{animation-play-state:paused}}
 
 .stage:not(.lesson-motion-paused) .anatomy-motion{animation-play-state:running}
+
+/* The layer explorer opens with detailed animated tissue; 3D remains optional. */
+.layer-exhibit{min-width:0;padding:16px;background:#eeeee4;border:1px solid #d6dccd;border-radius:22px;align-self:start}
+.layer-view-switch{display:flex;gap:8px;margin-bottom:14px}.layer-view-switch button{min-height:44px}
+.layer-view-switch [aria-pressed=true],.part-buttons [aria-pressed=true]{background:#176d73;color:white;border-color:#176d73}
+.layer-detail{box-shadow:none;border-radius:14px}.layer-detail svg{height:460px;object-fit:contain;background:#ddd9cb}
+.layer-return-flow .anatomy-particle{animation-direction:reverse}
+.layer-animation-controls{margin:16px 0 12px}.layer-exhibit [hidden]{display:none!important}
+.layer-motion-description{font-size:14px;line-height:1.6}.layer-exhibit .living-caption{margin-bottom:0}
+@media(max-width:700px){.layer-exhibit{padding:10px}.layer-detail svg{height:340px}.layer-view-switch button,.layer-animation-controls button{font-size:12px;padding:10px}.layer-detail .living-view-label{letter-spacing:.5px}}
