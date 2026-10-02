@@ -16,3 +16,20 @@ button{min-height:44px}.tool.locked{opacity:.65}.tool-lock{display:block;font-si
 /* Larger surface study with room for the face and full-body controls. */
 #anatomy-3d{height:900px;background:radial-gradient(ellipse at 50% 30%,#f3f1eb,#dfdfd6 85%)}.model-controls{flex-wrap:wrap}.model-controls button{font-size:11px;padding:8px 10px}.lab-layout{grid-template-columns:minmax(0,1.55fr) minmax(280px,.85fr)}@media(max-width:700px){.lab-layout{grid-template-columns:1fr}#anatomy-3d{height:850px}.model-controls{gap:4px}.model-controls button{padding:8px;font-size:10px}}
 @media(max-width:700px){.model-controls{display:grid;grid-template-columns:30px 1fr 1.4fr 30px 30px 30px;gap:4px}.model-controls button{min-width:0;padding:8px 3px;font-size:9px;white-space:nowrap}}
+
+/* Living anatomy: detailed artwork with independently moving teaching overlays. */
+.motion-overlay{pointer-events:none}.anatomy-particle{offset-rotate:auto;animation:anatomy-travel 9s linear infinite}.heart-beat{transform-box:fill-box;transform-origin:center;animation:anatomy-beat .91s ease-in-out infinite}.lung-expand{transform-box:fill-box;transform-origin:50% 85%;animation:anatomy-breathe 5s ease-in-out infinite}.muscle-flex{transform-box:fill-box;transform-origin:center;animation:anatomy-flex 4s ease-in-out infinite}.joint-glow{animation:anatomy-glow 3s ease-in-out infinite}.living-lab{margin-bottom:64px}.living-tabs{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0}.living-tabs button[aria-pressed=true]{background:#176d73;color:white;border-color:#176d73}.living-layout{display:grid;grid-template-columns:minmax(0,2.2fr) minmax(230px,1fr);gap:24px;align-items:start}.living-view{position:relative;border-radius:22px;overflow:hidden;background:#d8d5c8;box-shadow:0 18px 45px #102e3118}.living-view svg{display:block;width:100%;height:auto}.living-view-label{position:absolute;bottom:14px;left:14px;padding:9px 13px;border-radius:8px;background:#fffdf1ed;font-size:11px;letter-spacing:1.3px;font-weight:700;color:#176d73}.living-notes{padding:22px;border:1px solid #d6dccd;border-radius:20px;background:#fffdf6}.living-notes h3{font-size:30px;margin:12px 0}.living-controls{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0}.living-controls button{min-height:44px}.living-controls button[aria-pressed=true]{background:#176d73;color:#fff}.living-caption{font-size:12px;line-height:1.6;color:#63716b}.chapter-hit{cursor:pointer}
+@keyframes anatomy-travel{from{offset-distance:0%}to{offset-distance:100%}}
+@keyframes anatomy-beat{0%,45%,100%{transform:scale(1);opacity:.3}15%{transform:scale(1.045);opacity:.75}29%{transform:scale(1.012);opacity:.5}}
+@keyframes anatomy-breathe{0%,100%{transform:scale(.95, .96);opacity:.2}50%{transform:scale(1.04,1.04);opacity:.8}}
+@keyframes anatomy-flex{0%,100%{transform:scale(1);opacity:.3}50%{transform:scale(1.15,.88);opacity:.8}}
+@keyframes anatomy-glow{0%,100%{opacity:.25}50%{opacity:.9}}
+@media(max-width:760px){.living-layout{grid-template-columns:1fr}.living-tabs{gap:6px}.living-tabs button{padding:10px 12px;min-height:44px}.living-notes{padding:18px}.living-view-label{font-size:9px;bottom:8px;left:8px;padding:6px 8px}.living-lab{margin-bottom:36px}}
+@media(prefers-reduced-motion:reduce){.anatomy-motion{animation-play-state:paused}}
+.tissue-heart{transform-origin:354px 234px;animation:tissue-pulse .91s ease-in-out infinite}.tissue-lungs{transform-origin:350px 315px;animation:tissue-breath 5s ease-in-out infinite}.tissue-muscle{transform-origin:361px 145px;animation:tissue-flex 4s ease-in-out infinite}.lesson-motion-paused .anatomy-motion{animation-play-state:paused!important}
+@keyframes tissue-pulse{0%,45%,100%{transform:scale(1)}15%{transform:scale(1.035)}29%{transform:scale(1.01)}}
+@keyframes tissue-breath{0%,100%{transform:scale(1)}50%{transform:scale(1.035,1.03)}}
+@keyframes tissue-flex{0%,100%{transform:scale(1)}50%{transform:scale(1.09,.95)}}
+@media(prefers-reduced-motion:reduce){.tissue-heart,.tissue-lungs,.tissue-muscle{animation-play-state:paused}}
+
+.stage:not(.lesson-motion-paused) .anatomy-motion{animation-play-state:running}

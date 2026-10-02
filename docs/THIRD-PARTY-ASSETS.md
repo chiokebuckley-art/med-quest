@@ -32,3 +32,9 @@ The lab motion update retains native CC0 MakeHuman joint influences in the skin 
 ## Skin lesson artwork
 
 `MQ_S1_realistic_arm.webp` is original AI-generated photorealistic artwork created with the built-in image generator. Source and exact prompt are retained in `SKIN-BOARD-SOURCE.png` and `SKIN-BOARD-ART.json`. This is a two-dimensional educational illustration, not a patient photograph or the Free Lab 3D model.
+
+## Living anatomy animation
+
+The ten detailed lesson and lab views reuse the original generated museum artwork documented in `ART-PROMPTS.json` and the Black hand in `SKIN-BOARD-ART.json`. The new red-cell sprite was generated with built-in image generation; exact prompt, source and alpha-preserving conversion are recorded in `RED-CELL-ART.json`. No third-party patient photographs are used. Tissue motion, cell paths and signal markers are original teaching overlays.
+
+Basic blood-cell explanations were checked against [NHLBI Blood Tests](https://www.nhlbi.nih.gov/health/blood-tests) and lung gas exchange against [NHLBI How the Lungs Work](https://www.nhlbi.nih.gov/health/lungs). The simplified paths, colors and timings illustrate concepts, not clinical data.

@@ -1,0 +1,214 @@
+{
+  "missionArtworkChecks": [
+    {
+      "id": "S1",
+      "art": "/med-quest/assets/anatomy/MQ_S1_realistic_arm.webp",
+      "label": "Photorealistic illustration of a Black adult forearm and five-fingered hand, with interactive practice markers",
+      "width": 837
+    },
+    {
+      "id": "S2",
+      "art": "/med-quest/assets/anatomy/MQ_S1_realistic_arm.webp",
+      "label": "Realistic human forearm and detailed radius, ulna, wrist and hand bones with interactive alignment practice",
+      "width": 837
+    },
+    {
+      "id": "S3",
+      "art": "/med-quest/assets/anatomy/MQ_R13_museum.webp",
+      "label": "Detailed illustrated anatomy: Calm the Strain",
+      "width": 837
+    },
+    {
+      "id": "S4",
+      "art": "/med-quest/assets/anatomy/MQ_R10_museum.webp",
+      "label": "Detailed illustrated anatomy: Help the Clot Team",
+      "width": 837
+    },
+    {
+      "id": "S5",
+      "art": "/med-quest/assets/anatomy/MQ_R2_museum.webp",
+      "label": "Detailed illustrated anatomy: Steady the Pump Path",
+      "width": 837
+    },
+    {
+      "id": "S6",
+      "art": "/med-quest/assets/anatomy/MQ_R3_museum.webp",
+      "label": "Detailed human lungs and branching airway, animated air markers, diaphragm and blue practice marker",
+      "width": 837
+    },
+    {
+      "id": "S7",
+      "art": "/med-quest/assets/anatomy/MQ_R14_museum.webp",
+      "label": "Detailed illustrated anatomy: Explore the Food Path",
+      "width": 837
+    },
+    {
+      "id": "S8",
+      "art": "/med-quest/assets/anatomy/MQ_R15_museum.webp",
+      "label": "Detailed illustrated anatomy: Clean the Filter",
+      "width": 837
+    },
+    {
+      "id": "S9",
+      "art": "/med-quest/assets/anatomy/MQ_R16_museum.webp",
+      "label": "Detailed illustrated anatomy: Rest the Signal Hub",
+      "width": 837
+    },
+    {
+      "id": "S10",
+      "art": "/med-quest/assets/anatomy/MQ_S1_realistic_arm.webp",
+      "label": "Detailed illustrated anatomy: Call the Defense Team",
+      "width": 837
+    }
+  ],
+  "labResults": [
+    {
+      "animation": "playing",
+      "asset": "/med-quest/assets/anatomy/MQ_S1_realistic_arm.webp",
+      "particles": 3,
+      "speed": "slow",
+      "system": "S1"
+    },
+    {
+      "animation": "playing",
+      "asset": "/med-quest/assets/anatomy/MQ_R4_museum.webp",
+      "particles": 1,
+      "speed": "slow",
+      "system": "S2"
+    },
+    {
+      "animation": "playing",
+      "asset": "/med-quest/assets/anatomy/MQ_R13_museum.webp",
+      "particles": 1,
+      "speed": "slow",
+      "system": "S3"
+    },
+    {
+      "animation": "playing",
+      "asset": "/med-quest/assets/anatomy/MQ_R10_museum.webp",
+      "particles": 14,
+      "speed": "slow",
+      "system": "S4"
+    },
+    {
+      "animation": "playing",
+      "asset": "/med-quest/assets/anatomy/MQ_R2_museum.webp",
+      "particles": 13,
+      "speed": "slow",
+      "system": "S5"
+    },
+    {
+      "animation": "playing",
+      "asset": "/med-quest/assets/anatomy/MQ_R3_museum.webp",
+      "particles": 7,
+      "speed": "slow",
+      "system": "S6"
+    },
+    {
+      "animation": "playing",
+      "asset": "/med-quest/assets/anatomy/MQ_R14_museum.webp",
+      "particles": 3,
+      "speed": "slow",
+      "system": "S7"
+    },
+    {
+      "animation": "playing",
+      "asset": "/med-quest/assets/anatomy/MQ_R15_museum.webp",
+      "particles": 6,
+      "speed": "slow",
+      "system": "S8"
+    },
+    {
+      "animation": "playing",
+      "asset": "/med-quest/assets/anatomy/MQ_R16_museum.webp",
+      "particles": 5,
+      "speed": "slow",
+      "system": "S9"
+    },
+    {
+      "animation": "playing",
+      "asset": "/med-quest/assets/anatomy/MQ_R17_museum.webp",
+      "particles": 11,
+      "speed": "slow",
+      "system": "S10"
+    }
+  ],
+  "phoneLabChecks": [
+    {
+      "sceneWidth": 351,
+      "scrollWidth": 390,
+      "system": "S1",
+      "width": 390
+    },
+    {
+      "sceneWidth": 351,
+      "scrollWidth": 390,
+      "system": "S2",
+      "width": 390
+    },
+    {
+      "sceneWidth": 351,
+      "scrollWidth": 390,
+      "system": "S3",
+      "width": 390
+    },
+    {
+      "sceneWidth": 351,
+      "scrollWidth": 390,
+      "system": "S4",
+      "width": 390
+    },
+    {
+      "sceneWidth": 351,
+      "scrollWidth": 390,
+      "system": "S5",
+      "width": 390
+    },
+    {
+      "sceneWidth": 351,
+      "scrollWidth": 390,
+      "system": "S6",
+      "width": 390
+    },
+    {
+      "sceneWidth": 351,
+      "scrollWidth": 390,
+      "system": "S7",
+      "width": 390
+    },
+    {
+      "sceneWidth": 351,
+      "scrollWidth": 390,
+      "system": "S8",
+      "width": 390
+    },
+    {
+      "sceneWidth": 351,
+      "scrollWidth": 390,
+      "system": "S9",
+      "width": 390
+    },
+    {
+      "sceneWidth": 351,
+      "scrollWidth": 390,
+      "system": "S10",
+      "width": 390
+    }
+  ],
+  "animationChecks": {
+    "movingCellObserved": true,
+    "pause": {
+      "before": "36.6667%",
+      "after": "36.6667%"
+    },
+    "slowMotionRetainedAcrossAllSystems": true
+  },
+  "interactionChecks": {
+    "handwashingFiveZones": "passed",
+    "handBarrierPhysicalDrag": "passed",
+    "boneFragmentPhysicalDrag": "passed",
+    "airwayMarkerClick": "passed"
+  },
+  "console": [],
+  "automatedTests": 27
+}

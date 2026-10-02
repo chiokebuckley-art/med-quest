@@ -1,0 +1,7 @@
+{
+  "mode": "built-in image_gen",
+  "prompt": "Use case: scientific-educational. Asset type: transparent animation sprite for a human biology browser game. Create ONE isolated realistic human red blood cell, a soft red biconcave disc with depressed center, NOT a torus with a hole. Three-quarter slightly overhead view, fine softly textured red membrane, realistic organic form and gentle highlights, rich crimson edge and warm red center. Centered fully visible with generous transparent padding, square canvas. No other cells, no background, no shadow outside the object, no vessel, no text or labels. High quality scientific visualization, non-graphic, not a cartoon. Actual transparent background required.",
+  "source": "docs/RED-CELL-SOURCE.png",
+  "asset": "public/assets/anatomy/MQ_red_cell.webp",
+  "conversion": "Sharp 256x256 WebP quality 92, alpha preserved"
+}

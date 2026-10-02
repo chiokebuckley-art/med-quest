@@ -79,3 +79,9 @@ Appearance update: PR #5, successful deployment [36953544302](https://github.com
 ## Skin lesson hand correction
 
 Replaced the cartoon arm in **Learn / Skin & soft tissue / Patch the Cut on the Arm** with an original photorealistic Black adult forearm and hand. All practice overlays and the physical bandage drop align with the new forearm. Fixed the stage progress label after cleaning. PR #6; 25 tests and production build passed. Desktop sequence and physical drag passed; 390px phone view shows the entire hand without horizontal overflow. This change is specific to the Skin lesson, not the Free Lab model. Artwork prompt and browser evidence are in `docs/SKIN-BOARD-ART.json` and `docs/SKIN-LESSON-CHECKS.json`.
+
+## All-system artwork and living lab
+
+All ten playable system missions now display detailed human/anatomy artwork. Free Lab adds ten animated close-up views, including textured red cells moving inside the vessel scene, pulsing heart tissue, subtle lung expansion, muscle contraction, food/fluid paths and nerve signals. Pause, slow motion and restart are available; reduced-motion preferences pause the close-ups by default. The previous 3D body remains available below the close-ups.
+
+27 automated checks and build passed. Browser verification covered all ten mission images and lab tabs, 390px layout without horizontal overflow, pause/slow controls, physical hand-patch and bone-fragment drags, and airway selection. These are detailed illustrations with animated teaching overlays, not full deformable organ simulations or new photorealistic 3D human geometry.
