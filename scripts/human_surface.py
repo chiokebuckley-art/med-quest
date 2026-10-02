@@ -66,6 +66,20 @@ def build_surface(root, tag, ell, tube, skin, hair, eye, iris, pupil, fabric):
  tint=mesh.color_attributes.new(name='SkinTint',type='BYTE_COLOR',domain='POINT');mesh.color_attributes.active_color=tint
  for old,i in index.items():
   tint.data[i].color=(1,1,1,1)
+ # Preserve joint influence data through subdivision and glTF optimization.
+ motion=mesh.attributes.new(name='_MQ_ARM_WEIGHTS',type='FLOAT_VECTOR',domain='POINT')
+ arm_weights=[0.0]*len(raw);forearm_weights=[0.0]*len(raw)
+ for bone_name,values in weights.items():
+  if not bone_name.endswith('.L') or not bone_name.startswith(('upperarm','lowerarm','wrist','finger','metacarpal')):continue
+  lower=not bone_name.startswith('upperarm')
+  for old,w in values:
+   arm_weights[old]+=w
+   if lower:forearm_weights[old]+=w
+ for old,i in index.items():
+  arm=arm_weights[old]/totals[old] if totals[old]>.001 else 0
+  lower=forearm_weights[old]/arm_weights[old] if arm_weights[old]>.001 else 0
+  motion.data[i].vector=(min(1,arm),min(1,lower),0)
+ body['armMotionAttribute']='_MQ_ARM_WEIGHTS'
  material=skin.copy();material.name='Human skin microdetail';material.node_tree.nodes.get('Principled BSDF').inputs['Base Color'].default_value=(1,1,1,1)
  bsdf=material.node_tree.nodes.get('Principled BSDF');bsdf.inputs['Roughness'].default_value=.57;bsdf.inputs['Subsurface Weight'].default_value=.06
  albedo=bpy.data.images.load(str(source/'young_darkskinned_male_diffuse.png'));albedo.name='MakeHuman CC0 natural skin albedo';albedo.pack()

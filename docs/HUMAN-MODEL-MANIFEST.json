@@ -15,7 +15,7 @@
   ],
   "meshes": 23,
   "triangles": 210646,
-  "bytes": 4994760,
+  "bytes": 5016520,
   "partBudgets": [
     {
       "layer": "Skin",
@@ -136,7 +136,8 @@
   "notes": [
     "Educational anatomy, not a clinical atlas. Adapted CC0 surface with original internal anatomy.",
     "Detailed human topology, skin normal/roughness maps, breathing morph, facial features, five fingers, toes and fitted opaque shorts.",
-    "Anatomy groups use glTF extras for labels and layer selection."
+    "Anatomy groups use glTF extras for labels and layer selection.",
+    "Native MakeHuman arm joint influences exported as _MQ_ARM_WEIGHTS for jointed lab movement."
   ],
   "compression": "EXT_meshopt_compression"
 }
