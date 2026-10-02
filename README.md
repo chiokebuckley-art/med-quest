@@ -69,3 +69,9 @@ Use the source curriculum rubric as a conversation guide: an Explorer names a bo
 The realism rendering revision adds broad studio reflections, gentler skin highlights, fine short curl geometry and a face close-up. The current human remains a digital MakeHuman character. The photographic quality target and replacement requirements are recorded in `docs/REALISM-ASSET-BRIEF.md`; artistic realism is not established by automated test results.
 
 The Skin lesson now uses a photorealistic generated Black adult forearm and hand, with practice markers and bandage placement aligned to the forearm. See `docs/SKIN-BOARD-ART.json` for the prompt and `docs/SKIN-LESSON-CHECKS.json` for verification.
+
+## Living anatomy update
+
+All ten mission boards use detailed anatomy artwork. The bone lesson switches from the Black adult forearm to a detailed bone view; the defense lesson uses the human hand for washing and an immune-cell exhibit for the cell sequence. The Free Lab opens with ten animated close-ups, with independent pause, slow motion and restart controls. The existing rotatable 3D body remains below these views. Animation is illustrative: enlarged cells and motion overlays are not physiological measurements.
+
+Verification: 27 automated checks; ten mission previews; ten lab views at desktop and 390px; physical bone-fragment and hand-patch drags; airway hit target; pause, slow motion and clean browser console. See `docs/LIVING-ANATOMY-CHECKS.json`.
