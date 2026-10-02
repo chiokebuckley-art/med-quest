@@ -51,3 +51,9 @@ GOAL.md's v1 success checklist is fulfilled; the seven planned placeholder missi
 Generated illustrations and simplified inner anatomy are museum-style educational representations. This is a completed browser-game release, not a clinical simulation or photorealistic cinematic package.
 
 Med Quest is a game for learning. Not real medical care. For real injuries, tell a grown-up / get clinical care.
+
+## Black main character and systems artwork update
+
+The main academy guide is now Black, with natural skin texture and short coiled hair in the generated hero. The same hero appears on the home screen, systems introduction and Emergency lesson fallback. All ten system cards now show realistic museum anatomy images. The interactive body is rebuilt with the CC0 African adult shape target and dark skin texture; editable Blender source and runtime glTF are updated together. Original artwork is retained as a source variant.
+
+Local verification: 21 automated checks pass, including rebuilt mesh decoding, textures, morphs and selectable layers. Production build passes. Desktop and phone layouts, ten card images, home, lesson navigation and all six anatomy layers are checked before publication. Prompts are recorded in docs/ART-PROMPTS.json using built-in image generation.

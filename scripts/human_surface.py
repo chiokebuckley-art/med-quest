@@ -16,8 +16,8 @@ def build_surface(root, tag, ell, tube, skin, hair, eye, iris, pupil, fabric):
   elif fields[0]=='f':
    f=[(int(p.split('/')[0])-1,int(p.split('/')[1])-1) for p in fields[1:]]
    groups.setdefault(group,[]).append(f)
- # An adult volunteer, using a blend of core shape targets rather than a likeness.
- for filename,weight in [('african-male-young.target.gz',.5),('caucasian-male-young.target.gz',.5),('universal-male-young-averagemuscle-averageweight.target.gz',1)]:
+ # A Black adult volunteer, using the CC0 African adult shape target rather than a real-person likeness.
+ for filename,weight in [('african-male-young.target.gz',1),('universal-male-young-averagemuscle-averageweight.target.gz',1)]:
   for line in gzip.decompress((source/filename).read_bytes()).decode().splitlines():
    p=line.split()
    if len(p)==4 and not p[0].startswith('#'):vertices[int(p[0])]+=Vector(map(float,p[1:]))*weight
