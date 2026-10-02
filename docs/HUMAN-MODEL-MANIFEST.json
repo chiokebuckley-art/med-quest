@@ -14,8 +14,8 @@
     "Skin"
   ],
   "meshes": 23,
-  "triangles": 210574,
-  "bytes": 4991800,
+  "triangles": 210646,
+  "bytes": 4994760,
   "partBudgets": [
     {
       "layer": "Skin",
@@ -45,12 +45,12 @@
     {
       "layer": "Face",
       "part": "Hair",
-      "triangles": 1668
+      "triangles": 1692
     },
     {
       "layer": "Clothing",
       "part": "Academy_Shorts",
-      "triangles": 9408
+      "triangles": 9456
     },
     {
       "layer": "Muscle",

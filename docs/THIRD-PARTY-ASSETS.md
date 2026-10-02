@@ -13,7 +13,7 @@ Copied graphical data in `scripts/vendor/makehuman/`: hm08 `base.obj`, adult sha
 
 https://static.makehumancommunity.org/about/license.html confirms the separate CC0 graphical-asset licensing. MakeHuman application code is AGPL and MPFB application code is GPL; no application code from either project is copied or executed here. The Med Quest adaptation and export scripts are authored for this game.
 
-Adaptations: blended adult core shape targets, scaled to 1.75 m, weighted arm/leg posing into the exhibit stance, subdivided surface, fitted opaque teal shorts, modeled eyes/scalp, embedded skin albedo, generated pore normal and roughness maps, chest-only breathing morph, Meshopt compression. The educational internal anatomy remains simplified and is not a clinical atlas.
+Adaptations: Black adult volunteer using the CC0 African adult shape target and natural dark skin albedo, scaled to 1.75 m, weighted arm/leg posing into the exhibit stance, subdivided surface, fitted opaque teal shorts, modeled eyes/scalp, embedded skin albedo, generated pore normal and roughness maps, chest-only breathing morph, Meshopt compression. The educational internal anatomy remains simplified and is not a clinical atlas.
 
 ## Rebuild
 

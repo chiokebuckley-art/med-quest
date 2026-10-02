@@ -66,6 +66,13 @@
       "prompt": "Finished photorealistic educational museum still for the Med Quest body systems game. A single clear subject on a warm cream display in a bright anatomy museum, soft clinical key, warm fill, restrained teal accents, clean transparent acrylic exhibit context. Elementary-friendly, no injury, gore, external blood, operating wounds, horror, brands, labels, words or watermarks. Red contents stay inside closed vessel models. Landscape 16:9, realistic materials and fine detail. Educational simplification, no medical procedure. Subject: An enlarged immune-defense museum exhibit inside a closed transparent vessel: several realistic pale white blood cell model forms interacting with small muted violet germ model particles, contained red flow, clean and calm, no monster faces or violent battle.",
       "source": "exec-7a653616-f1b3-4bf6-ac4c-a31ce83786ce.png",
       "asset": "public/assets/anatomy/MQ_R17_museum.webp"
+    },
+    {
+      "id": "R6-Black-v2",
+      "prompt": "Use case: precise-object-edit. Edit target: the supplied Med Quest museum hero image. Replace the main human volunteer with a photorealistic Black adult man with deep brown skin, natural Black facial features, short tightly coiled black hair, warm approachable expression and realistic skin pores. Keep his white t-shirt, teal shorts, relaxed upright pose and the intact clear acrylic anatomy exhibit beside him. Keep the cream museum, warm daylight, existing composition with the man and anatomy on the right and empty cream wall on the left for game text. Make the result look like high-quality natural editorial photography, not a cartoon or shiny game doll. Preserve the realistic enclosed heart/lung/vessel exhibit; no wounds or exposed real tissue. No text, no logos, no watermarks. Child-friendly museum scene. The main person is explicitly Black. Landscape 16:9.",
+      "source": "exec-9f196b47-ec46-4532-8df1-5280a0c37e3e.png",
+      "asset": "public/assets/anatomy/MQ_R6_black_museum_hero.webp",
+      "replacesInRuntime": "public/assets/anatomy/MQ_R6_museum_hero.webp"
     }
   ]
 }
