@@ -1,0 +1,32 @@
+{
+  "lesson": "Patch the Cut on the Arm",
+  "changes": [
+    "Continuous translucent gel with a wipe-away mask instead of blue circles",
+    "Swab sheen instead of colored coverage dots",
+    "Four individually tied thread stitches instead of numbered circles",
+    "Small highlight marks retain guidance; keyboard stitch buttons retained",
+    "Textured dressing and sponge/swab cursor"
+  ],
+  "browserChecks": {
+    "physicalWipe": {
+      "cleanPercent": 75,
+      "remainingGelAreas": 5,
+      "clearedMaskAreas": 15
+    },
+    "twoDirectStitchClicks": 2,
+    "continuousDragFinishedStitches": 4,
+    "remainingGuideMarks": 0,
+    "phoneWidth": 390,
+    "phoneScrollWidth": 390,
+    "dressingCompleted": "Shield protected",
+    "consoleErrors": []
+  },
+  "automatedChecks": 27,
+  "screenshots": [
+    "skin-gel-before.png",
+    "skin-gel-wiped.png",
+    "skin-two-thread-stitches.png",
+    "skin-four-thread-stitches.png",
+    "skin-thread-phone.png"
+  ]
+}
