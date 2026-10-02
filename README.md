@@ -4,7 +4,7 @@ An original, elementary-friendly browser game about how the body works. All ten 
 
 ## Play
 
-Public target: https://chiokebuckley-art.github.io/med-quest/
+Play online: https://chiokebuckley-art.github.io/med-quest/
 
 For local development, install Node.js 22 or newer:
 
@@ -61,3 +61,7 @@ Eleven finished AI-generated museum illustrations appear in the home hero and al
 Med Quest is a game for learning. Not real medical care. For real injuries, tell a grown-up / get clinical care.
 
 The diagrams, tools, O2 numbers and outcomes are fictional learning mechanics. Blue gel and closed cartoon lines keep operation boards calm. No medical dosing, diagnosis, real injury assessment or return-to-play clearance is provided. See `docs/MEDICAL-EDUCATION-SOURCES.md` for the help-seeking boundaries used in the Emergency and head-bump stories.
+
+## Grown-up reflection guide
+
+Use the source curriculum rubric as a conversation guide: an Explorer names a body part and completes the FIX steps with Pip; a Trainee explains why two tools are chosen and compares a fair test; a Junior Ops learner teaches the idea to a stuffed animal and writes three sentences. The game saves discoveries and practice stars; these labels are reflection prompts, not medical qualifications or automatically assessed ranks.

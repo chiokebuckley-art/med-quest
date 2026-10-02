@@ -11,6 +11,10 @@ Validation: 21 automated checks and the production build pass. Browser journeys 
 - [x] Six labeled human layers, camera controls and contained motion
 - [x] Realistic hero and ten lesson illustrations with recorded prompts
 - [x] Correct `/med-quest/` build base and GitHub Pages workflow
-- [ ] Public Pages load and deployed browser verification (record after merge)
+- [x] Public Pages load and deployed browser verification: all 13 journeys, persistence, Arcade stars, six anatomy layers and phone views. All 63 production files match local SHA-256.
 
 Internal anatomy and generated illustrations are educational simplifications. Original optional Astra replacement slots are retained; cinematic WebM clips are not required for the interactive release and are not supplied.
+
+Live game: https://chiokebuckley-art.github.io/med-quest/
+
+Verified runtime: `a002350a186b37889a43799536924a24376bd493`; successful deployment: https://github.com/chiokebuckley-art/med-quest/actions/runs/36947138331. See SHIP-NOTES.md for release boundaries and live evidence.

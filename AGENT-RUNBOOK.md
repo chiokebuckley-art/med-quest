@@ -53,9 +53,9 @@ Verified October 1, 2026. Build: Vite 7.3.6, Three.js. Node acceptance suite: 21
 
 - [x] D2 Production bundle uses `/med-quest/`; local preview refresh returns to boot and keeps progress.
 - [x] D3 SHIP-NOTES.md describes all ten playable systems, three Emergency stories, realistic art and known limitations.
-- [ ] D1 Public HTTPS Pages URL, green GitHub Actions and PR verification: repository created; full source transfer and Pages setup in progress.
+- [x] D1 Public HTTPS Pages loads, release PRs are merged with green checks, and deployment run 36947138331 succeeds. Runtime revision and evidence are in SHIP-NOTES.md.
 
-The game implementation passes local checks. Public hosting and the updated ZIP remain release gates.
+The game implementation and public hosting pass acceptance. The final ZIP includes the verified runtime and release evidence; adjacent package checks record archive integrity and SHA-256.
 
 ## Human model follow-up
 
@@ -81,4 +81,4 @@ Realism follow-up verified: detailed human surface, fitted shorts, full-body cam
 - [x] Adult/help journal guards show actionable coaching. Emergency back navigation returns to its stories.
 - [x] Updated desktop hero and 390x780 home, lesson, Emergency and kidney sorting views render without horizontal overflow.
 - [x] No browser console errors/warnings observed in the refreshed production audit.
-- [ ] Live Pages browser acceptance and final ZIP regenerated after deployment.
+- [x] Live Pages browser acceptance passed; final ZIP generated from this verified release with archive integrity checks.

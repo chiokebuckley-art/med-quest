@@ -1,0 +1,153 @@
+{
+  "date": "2026-10-02T00:45:01.485Z",
+  "url": "https://chiokebuckley-art.github.io/med-quest/",
+  "verifiedRuntimeRevision": "a002350a186b37889a43799536924a24376bd493",
+  "note": "Core and unchanged added chapters passed on the initial live release; the corrected kidney chapter, refresh persistence, Arcade stars, six anatomy layers and responsive views passed after the kidney update.",
+  "completedSystemMissions": [
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6",
+    "S7",
+    "S8",
+    "S9",
+    "S10"
+  ],
+  "completedHelpStories": [
+    "E1",
+    "E2",
+    "E3"
+  ],
+  "savedLearnAndEmergencyEntries": 13,
+  "savedEntriesAfterArcade": 14,
+  "systemDiscoveriesAfterRefresh": 10,
+  "heartPracticeStarsAfterRefresh": 3,
+  "wrongOrderGuards": [
+    "Skin stitch-first rejected",
+    "Bone cast-first rejected"
+  ],
+  "journalGuards": [
+    "Empty journal rejected",
+    "Breathing real-emergency answer requires adult/help language"
+  ],
+  "chapterJourneyResults": [
+    {
+      "id": "S3",
+      "completed": true,
+      "journalSaved": true
+    },
+    {
+      "id": "S4",
+      "completed": true,
+      "journalSaved": true
+    },
+    {
+      "id": "S5",
+      "completed": true,
+      "journalSaved": true
+    },
+    {
+      "id": "S7",
+      "completed": true,
+      "journalSaved": true
+    },
+    {
+      "id": "S9",
+      "completed": true,
+      "journalSaved": true
+    },
+    {
+      "id": "S10",
+      "completed": true,
+      "journalSaved": true
+    },
+    {
+      "id": "E1",
+      "completed": true,
+      "journalSaved": true
+    },
+    {
+      "id": "E2",
+      "completed": true,
+      "journalSaved": true
+    },
+    {
+      "id": "E3",
+      "completed": true,
+      "journalSaved": true
+    },
+    {
+      "id": "S8",
+      "completed": true,
+      "journalSaved": true
+    },
+    {
+      "id": "S5",
+      "completed": true,
+      "journalSaved": true
+    }
+  ],
+  "layers": [
+    {
+      "layer": "Skin",
+      "parts": [
+        "Skin"
+      ],
+      "modelLoaded": true
+    },
+    {
+      "layer": "Muscle",
+      "parts": [
+        "Muscles",
+        "Tendons"
+      ],
+      "modelLoaded": true
+    },
+    {
+      "layer": "Bone",
+      "parts": [
+        "Bones",
+        "Joints"
+      ],
+      "modelLoaded": true
+    },
+    {
+      "layer": "Organs",
+      "parts": [
+        "Heart",
+        "Lungs",
+        "Stomach",
+        "Kidneys",
+        "Intestines"
+      ],
+      "modelLoaded": true
+    },
+    {
+      "layer": "Pipes",
+      "parts": [
+        "Arteries",
+        "Veins"
+      ],
+      "modelLoaded": true
+    },
+    {
+      "layer": "Signals",
+      "parts": [
+        "Brain",
+        "Nerves"
+      ],
+      "modelLoaded": true
+    }
+  ],
+  "phoneChecks": {
+    "size": "390x780",
+    "bodyExplorerNoOverflow": true,
+    "homeNoOverflow": true,
+    "kidneyLessonNoOverflow": true,
+    "imagesLoaded": true
+  },
+  "freshDeliverableNotebookEntries": 0,
+  "consoleErrorsOrWarningsObserved": []
+}
