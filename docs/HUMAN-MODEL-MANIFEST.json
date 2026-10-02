@@ -1,0 +1,142 @@
+{
+  "asset": "public/assets/models/MQ_human_anatomy.glb",
+  "original": false,
+  "surfaceSource": "MakeHuman hm08 CC0, adapted for Med Quest",
+  "humanHeightMeters": 1.75,
+  "layers": [
+    "Bone",
+    "Clothing",
+    "Face",
+    "Muscle",
+    "Organs",
+    "Pipes",
+    "Signals",
+    "Skin"
+  ],
+  "meshes": 23,
+  "triangles": 210574,
+  "bytes": 4991800,
+  "partBudgets": [
+    {
+      "layer": "Skin",
+      "part": "Skin",
+      "triangles": 107024
+    },
+    {
+      "layer": "Face",
+      "part": "Eye",
+      "triangles": 2432
+    },
+    {
+      "layer": "Face",
+      "part": "Iris",
+      "triangles": 1920
+    },
+    {
+      "layer": "Face",
+      "part": "Pupil",
+      "triangles": 1056
+    },
+    {
+      "layer": "Face",
+      "part": "Brow",
+      "triangles": 672
+    },
+    {
+      "layer": "Face",
+      "part": "Hair",
+      "triangles": 1668
+    },
+    {
+      "layer": "Clothing",
+      "part": "Academy_Shorts",
+      "triangles": 9408
+    },
+    {
+      "layer": "Muscle",
+      "part": "Muscles",
+      "triangles": 6336
+    },
+    {
+      "layer": "Muscle",
+      "part": "Tendons",
+      "triangles": 1408
+    },
+    {
+      "layer": "Bone",
+      "part": "Bones",
+      "triangles": 31388
+    },
+    {
+      "layer": "Bone",
+      "part": "Joints",
+      "triangles": 2112
+    },
+    {
+      "layer": "Organs",
+      "part": "Lungs",
+      "triangles": 2816
+    },
+    {
+      "layer": "Organs",
+      "part": "Lungs",
+      "triangles": 1696
+    },
+    {
+      "layer": "Organs",
+      "part": "Heart",
+      "triangles": 3582
+    },
+    {
+      "layer": "Organs",
+      "part": "Heart",
+      "triangles": 496
+    },
+    {
+      "layer": "Organs",
+      "part": "Stomach",
+      "triangles": 816
+    },
+    {
+      "layer": "Organs",
+      "part": "Intestines",
+      "triangles": 12352
+    },
+    {
+      "layer": "Organs",
+      "part": "Kidneys",
+      "triangles": 704
+    },
+    {
+      "layer": "Organs",
+      "part": "Kidneys",
+      "triangles": 672
+    },
+    {
+      "layer": "Pipes",
+      "part": "Arteries",
+      "triangles": 4640
+    },
+    {
+      "layer": "Pipes",
+      "part": "Veins",
+      "triangles": 3936
+    },
+    {
+      "layer": "Signals",
+      "part": "Nerves",
+      "triangles": 5632
+    },
+    {
+      "layer": "Signals",
+      "part": "Brain",
+      "triangles": 7808
+    }
+  ],
+  "notes": [
+    "Educational anatomy, not a clinical atlas. Adapted CC0 surface with original internal anatomy.",
+    "Detailed human topology, skin normal/roughness maps, breathing morph, facial features, five fingers, toes and fitted opaque shorts.",
+    "Anatomy groups use glTF extras for labels and layer selection."
+  ],
+  "compression": "EXT_meshopt_compression"
+}

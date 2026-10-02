@@ -1,0 +1,2 @@
+import {slices} from './learnEngine.js';
+export function tray(s){return slices[s.id].spec.tools.map(([id,label,purpose],i)=>{const locked=(s.id==='S1'&&((id==='needle'&&s.step<4)||(id==='bandage'&&s.step<5)))||(s.id==='S2'&&id==='cast'&&s.step<4);return `<button aria-disabled="${locked}" class="tool ${locked?'locked':''} ${s.tool===id?'selected':''}" data-tool="${id}" aria-pressed="${s.tool===id}"><span class="tool-icon">${['◇','✧','⌁','▰'][i]}</span><b>${label}</b><small>${purpose}</small>${locked?'<span class="tool-lock">Locked until ready</span>':''}</button>`}).join('')}

@@ -1,0 +1,651 @@
+[
+  {
+    "id": "S4",
+    "title": "Help the Clot Team",
+    "steps": [
+      {
+        "label": "Notice the vessel",
+        "kind": "choice",
+        "question": "Where does blood normally travel?",
+        "options": [
+          "Inside vessels",
+          "Outside skin"
+        ],
+        "answer": "Inside vessels",
+        "tool": ""
+      },
+      {
+        "label": "Predict a protected plug",
+        "kind": "choice",
+        "question": "Which helps this pretend plug stay in place?",
+        "options": [
+          "A steady pad",
+          "Keep disturbing it"
+        ],
+        "answer": "A steady pad",
+        "tool": ""
+      },
+      {
+        "label": "Keep the diagram pad steady",
+        "kind": "wait",
+        "tool": "pressure",
+        "instruction": "Hold the game pad steady for one short demonstration. This is not real first aid.",
+        "duration": 3000
+      },
+      {
+        "label": "Match the support pose",
+        "kind": "corridor",
+        "tool": "support",
+        "instruction": "Match the diagram token to the highlighted support position.",
+        "min": 65,
+        "max": 85
+      },
+      {
+        "label": "Observe the helpers",
+        "kind": "wait",
+        "tool": "observe",
+        "instruction": "Watch the simulated platelet team gather inside the pipe.",
+        "duration": 3000
+      },
+      {
+        "label": "Protect the pretend plug",
+        "kind": "snap",
+        "tool": "bandage",
+        "instruction": "Place the bandage over the protected diagram site.",
+        "target": [
+          350,
+          215
+        ],
+        "origin": [
+          100,
+          350
+        ],
+        "tolerance": 38
+      }
+    ],
+    "answers": [
+      "Release check: S4 body system or help story.",
+      "Release check: ask a trusted adult and get professional or emergency help."
+    ]
+  },
+  {
+    "id": "S5",
+    "title": "Steady the Pump Path",
+    "steps": [
+      {
+        "label": "Notice the pump",
+        "kind": "choice",
+        "question": "Which organ pumps blood?",
+        "options": [
+          "Heart",
+          "Stomach",
+          "Kidney"
+        ],
+        "answer": "Heart",
+        "tool": ""
+      },
+      {
+        "label": "Predict the loop",
+        "kind": "choice",
+        "question": "What must this flow path have?",
+        "options": [
+          "A connected outward and return loop",
+          "A pipe with a missing section"
+        ],
+        "answer": "A connected outward and return loop",
+        "tool": ""
+      },
+      {
+        "label": "Listen at the pump",
+        "kind": "choice",
+        "tool": "listen",
+        "instruction": "Choose the pump listening zone.",
+        "question": "Where should the diagram listener go?",
+        "options": [
+          "Heart",
+          "Foot"
+        ],
+        "answer": "Heart"
+      },
+      {
+        "label": "Reconnect the pipe",
+        "kind": "snap",
+        "tool": "coupler",
+        "instruction": "Drag the pipe coupler into the missing section.",
+        "target": [
+          490,
+          210
+        ],
+        "origin": [
+          100,
+          350
+        ],
+        "tolerance": 36
+      },
+      {
+        "label": "Open the rhythm gate",
+        "kind": "sequence",
+        "tool": "valve",
+        "instruction": "Follow three slow numbered pulse cues.",
+        "answers": [
+          "Pulse 1",
+          "Pulse 2",
+          "Pulse 3"
+        ]
+      },
+      {
+        "label": "Choose everyday habits",
+        "kind": "cards",
+        "tool": "habits",
+        "instruction": "Choose two everyday habits that support wellbeing.",
+        "options": [
+          "Enjoy active play",
+          "Get enough sleep",
+          "Smoke",
+          "Skip sleep"
+        ],
+        "answers": [
+          "Enjoy active play",
+          "Get enough sleep"
+        ]
+      }
+    ],
+    "answers": [
+      "Release check: S5 body system or help story.",
+      "Release check: ask a trusted adult and get professional or emergency help."
+    ]
+  },
+  {
+    "id": "S7",
+    "title": "Explore the Food Path",
+    "steps": [
+      {
+        "label": "Notice the path",
+        "kind": "choice",
+        "question": "Where does the food path begin?",
+        "options": [
+          "Mouth",
+          "Kidney",
+          "Heart"
+        ],
+        "answer": "Mouth",
+        "tool": ""
+      },
+      {
+        "label": "Predict the next stop",
+        "kind": "choice",
+        "question": "What comes after the food pipe?",
+        "options": [
+          "Stomach",
+          "Brain"
+        ],
+        "answer": "Stomach",
+        "tool": ""
+      },
+      {
+        "label": "Trace food in order",
+        "kind": "sequence",
+        "tool": "viewer",
+        "instruction": "Follow the four labeled stops.",
+        "answers": [
+          "Mouth",
+          "Esophagus",
+          "Stomach",
+          "Intestines"
+        ]
+      },
+      {
+        "label": "Find the diagram bend",
+        "kind": "choice",
+        "tool": "viewer",
+        "instruction": "Notice where the game token has paused.",
+        "question": "Where is the game token waiting?",
+        "options": [
+          "Pipe bend",
+          "Heart"
+        ],
+        "answer": "Pipe bend"
+      },
+      {
+        "label": "Guide the model token",
+        "kind": "sequence",
+        "tool": "guide",
+        "instruction": "Tap the three connected guide marks in order. Never try this on a person.",
+        "answers": [
+          "Guide 1",
+          "Guide 2",
+          "Guide 3"
+        ]
+      },
+      {
+        "label": "Choose gentle habits",
+        "kind": "cards",
+        "tool": "habits",
+        "instruction": "Choose water and an adult check-in. The game does not diagnose stomach pain.",
+        "options": [
+          "Drink water when thirsty",
+          "Tell an adult about pain",
+          "Invent tummy surgery",
+          "Ignore severe pain"
+        ],
+        "answers": [
+          "Drink water when thirsty",
+          "Tell an adult about pain"
+        ]
+      }
+    ],
+    "answers": [
+      "Release check: S7 body system or help story.",
+      "Release check: ask a trusted adult and get professional or emergency help."
+    ]
+  },
+  {
+    "id": "S8",
+    "title": "Clean the Filter",
+    "steps": [
+      {
+        "label": "Notice the filter",
+        "kind": "choice",
+        "question": "Which organs filter blood?",
+        "options": [
+          "Kidneys",
+          "Lungs",
+          "Bones"
+        ],
+        "answer": "Kidneys",
+        "tool": ""
+      },
+      {
+        "label": "Predict the sorting job",
+        "kind": "choice",
+        "question": "What should the model filter keep?",
+        "options": [
+          "Useful oxygen and nutrients",
+          "Every waste token"
+        ],
+        "answer": "Useful oxygen and nutrients",
+        "tool": ""
+      },
+      {
+        "label": "Sort the model contents",
+        "kind": "sort",
+        "tool": "sorter",
+        "instruction": "Choose a token, then its bin. Kidneys keep useful material and remove wastes.",
+        "items": [
+          {
+            "label": "Waste token A",
+            "bin": "waste"
+          },
+          {
+            "label": "Useful nutrient",
+            "bin": "keep"
+          },
+          {
+            "label": "Waste token B",
+            "bin": "waste"
+          },
+          {
+            "label": "Useful water balance",
+            "bin": "keep"
+          }
+        ],
+        "bins": [
+          [
+            "waste",
+            "Remove waste"
+          ],
+          [
+            "keep",
+            "Keep useful material"
+          ]
+        ]
+      },
+      {
+        "label": "Choose a water habit",
+        "kind": "choice",
+        "tool": "water",
+        "instruction": "Choose a helpful everyday habit. No dose or quantity is taught.",
+        "question": "When you notice thirst, what is a helpful habit?",
+        "options": [
+          "Drink water",
+          "Ignore thirst all day"
+        ],
+        "answer": "Drink water"
+      },
+      {
+        "label": "Trace the leftover liquid",
+        "kind": "sequence",
+        "tool": "viewer",
+        "instruction": "Follow the simplified urine pathway.",
+        "answers": [
+          "Kidneys",
+          "Ureters",
+          "Bladder"
+        ]
+      }
+    ],
+    "answers": [
+      "Release check: S8 body system or help story.",
+      "Release check: ask a trusted adult and get professional or emergency help."
+    ]
+  },
+  {
+    "id": "S9",
+    "title": "Rest the Signal Hub",
+    "steps": [
+      {
+        "label": "Notice the hub",
+        "kind": "choice",
+        "question": "What coordinates signals in this diagram?",
+        "options": [
+          "Brain",
+          "Stomach"
+        ],
+        "answer": "Brain",
+        "tool": ""
+      },
+      {
+        "label": "Predict safe help",
+        "kind": "choice",
+        "question": "After a real head bump with symptoms, what comes first?",
+        "options": [
+          "Stop play and tell an adult",
+          "Keep playing to test yourself"
+        ],
+        "answer": "Stop play and tell an adult",
+        "tool": ""
+      },
+      {
+        "label": "Choose a calmer setting",
+        "kind": "choice",
+        "tool": "dimmer",
+        "instruction": "Choose the quieter diagram environment.",
+        "question": "Which setting is calmer?",
+        "options": [
+          "Quiet space",
+          "Loud flashing arcade"
+        ],
+        "answer": "Quiet space"
+      },
+      {
+        "label": "Tell a trusted adult",
+        "kind": "choice",
+        "tool": "adult",
+        "instruction": "Practice reporting what happened.",
+        "question": "What should the character say?",
+        "options": [
+          "I bumped my head and do not feel right",
+          "Keep it secret"
+        ],
+        "answer": "I bumped my head and do not feel right"
+      },
+      {
+        "label": "Pause the game activity",
+        "kind": "wait",
+        "tool": "quiet",
+        "instruction": "A short game pause represents stopping play, not injury recovery. Real return to sport needs professional clearance.",
+        "duration": 3000
+      },
+      {
+        "label": "Learn about the signal wires",
+        "kind": "choice",
+        "tool": "viewer",
+        "instruction": "Identify a nerve. This quiz cannot assess an injury or clear someone to play.",
+        "question": "What carries messages between brain and body?",
+        "options": [
+          "Nerves",
+          "Bandages"
+        ],
+        "answer": "Nerves"
+      }
+    ],
+    "answers": [
+      "Release check: S9 body system or help story.",
+      "Release check: ask a trusted adult and get professional or emergency help."
+    ]
+  },
+  {
+    "id": "S10",
+    "title": "Call the Defense Team",
+    "steps": [
+      {
+        "label": "Notice the defense team",
+        "kind": "choice",
+        "question": "Which helpers are part of the immune system?",
+        "options": [
+          "White blood cells",
+          "Cast strips"
+        ],
+        "answer": "White blood cells",
+        "tool": ""
+      },
+      {
+        "label": "Predict a clean start",
+        "kind": "choice",
+        "question": "Before snack, what helps remove germs from hands?",
+        "options": [
+          "Wash hands",
+          "Skip washing"
+        ],
+        "answer": "Wash hands",
+        "tool": ""
+      },
+      {
+        "label": "Clear the hand diagram",
+        "kind": "coverage",
+        "tool": "soap",
+        "instruction": "Clear all five germ zones on this pretend hand.",
+        "count": 5,
+        "threshold": 5
+      },
+      {
+        "label": "Protect the barrier",
+        "kind": "snap",
+        "tool": "bandage",
+        "instruction": "Match the protection patch to the skin-wall outline.",
+        "target": [
+          350,
+          245
+        ],
+        "origin": [
+          100,
+          350
+        ],
+        "tolerance": 38
+      },
+      {
+        "label": "Match the cell team",
+        "kind": "sequence",
+        "tool": "cells",
+        "instruction": "Send a model helper to each numbered germ zone in order.",
+        "answers": [
+          "Zone 1",
+          "Zone 2",
+          "Zone 3"
+        ]
+      },
+      {
+        "label": "Choose supporting habits",
+        "kind": "cards",
+        "tool": "habits",
+        "instruction": "Choose sleep and varied food. Doctors and vaccines are real-world helpers too.",
+        "options": [
+          "Get enough sleep",
+          "Enjoy varied food",
+          "Skip sleep",
+          "Never wash hands"
+        ],
+        "answers": [
+          "Get enough sleep",
+          "Enjoy varied food"
+        ]
+      }
+    ],
+    "answers": [
+      "Release check: S10 body system or help story.",
+      "Release check: ask a trusted adult and get professional or emergency help."
+    ]
+  },
+  {
+    "id": "E1",
+    "title": "Get Help for Breathing Trouble",
+    "steps": [
+      {
+        "label": "Notice the story",
+        "kind": "choice",
+        "question": "What needs attention?",
+        "options": [
+          "Serious trouble breathing",
+          "A missing toy"
+        ],
+        "answer": "Serious trouble breathing",
+        "tool": ""
+      },
+      {
+        "label": "Predict a safe response",
+        "kind": "choice",
+        "question": "What should the character do first?",
+        "options": [
+          "Stay safe and get adult / emergency help",
+          "Try medical tools from the game"
+        ],
+        "answer": "Stay safe and get adult / emergency help",
+        "tool": ""
+      },
+      {
+        "label": "Practice asking for help",
+        "kind": "sequence",
+        "tool": "",
+        "instruction": "Choose the help messages in order. No real call is made.",
+        "answers": [
+          "Tell a trusted adult",
+          "Describe the problem and location",
+          "Get urgent emergency help"
+        ]
+      },
+      {
+        "label": "Observe the safe plan",
+        "kind": "choice",
+        "question": "What is true about this game?",
+        "options": [
+          "It helps me practice asking for help",
+          "It qualifies me to treat real injuries"
+        ],
+        "answer": "It helps me practice asking for help",
+        "tool": ""
+      }
+    ],
+    "answers": [
+      "Release check: E1 body system or help story.",
+      "Release check: ask a trusted adult and get professional or emergency help."
+    ]
+  },
+  {
+    "id": "E2",
+    "title": "Pause Play and Tell an Adult",
+    "steps": [
+      {
+        "label": "Notice the story",
+        "kind": "choice",
+        "question": "What needs attention?",
+        "options": [
+          "Dizzy after a head bump",
+          "A forgotten game score"
+        ],
+        "answer": "Dizzy after a head bump",
+        "tool": ""
+      },
+      {
+        "label": "Predict a safe response",
+        "kind": "choice",
+        "question": "What should the character do first?",
+        "options": [
+          "Stop play and tell a trusted adult",
+          "Return to the game immediately"
+        ],
+        "answer": "Stop play and tell a trusted adult",
+        "tool": ""
+      },
+      {
+        "label": "Practice asking for help",
+        "kind": "sequence",
+        "tool": "",
+        "instruction": "Choose the help messages in order. No real call is made.",
+        "answers": [
+          "Tell a trusted adult",
+          "Describe the problem and location",
+          "Get professional advice; keep play paused"
+        ]
+      },
+      {
+        "label": "Observe the safe plan",
+        "kind": "choice",
+        "question": "What is true about this game?",
+        "options": [
+          "It helps me practice asking for help",
+          "It qualifies me to treat real injuries"
+        ],
+        "answer": "It helps me practice asking for help",
+        "tool": ""
+      }
+    ],
+    "answers": [
+      "Release check: E2 body system or help story.",
+      "Release check: ask a trusted adult and get professional or emergency help."
+    ]
+  },
+  {
+    "id": "E3",
+    "title": "Stay Safe and Call for Help",
+    "steps": [
+      {
+        "label": "Notice the story",
+        "kind": "choice",
+        "question": "What needs attention?",
+        "options": [
+          "An accident near a busy road",
+          "A puzzle on a desk"
+        ],
+        "answer": "An accident near a busy road",
+        "tool": ""
+      },
+      {
+        "label": "Predict a safe response",
+        "kind": "choice",
+        "question": "What should the character do first?",
+        "options": [
+          "Stay safe and get adult / emergency help",
+          "Try medical tools from the game"
+        ],
+        "answer": "Stay safe and get adult / emergency help",
+        "tool": ""
+      },
+      {
+        "label": "Practice asking for help",
+        "kind": "sequence",
+        "tool": "",
+        "instruction": "Choose the help messages in order. No real call is made.",
+        "answers": [
+          "Tell a trusted adult",
+          "Describe the problem and location",
+          "Call local emergency services when urgent"
+        ]
+      },
+      {
+        "label": "Observe the safe plan",
+        "kind": "choice",
+        "question": "What is true about this game?",
+        "options": [
+          "It helps me practice asking for help",
+          "It qualifies me to treat real injuries"
+        ],
+        "answer": "It helps me practice asking for help",
+        "tool": ""
+      }
+    ],
+    "answers": [
+      "Release check: E3 body system or help story.",
+      "Release check: ask a trusted adult and get professional or emergency help."
+    ]
+  }
+]

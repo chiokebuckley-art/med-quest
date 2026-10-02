@@ -1,0 +1,12 @@
+{
+  "system": "S6",
+  "breathCycles": 3,
+  "countsPerCycle": 3,
+  "inhalerRespect": [
+    "Call adult",
+    "Shake the prop",
+    "Adult helps"
+  ],
+  "journalMinimum": 2,
+  "requiresAdultHelpAnswer": true
+}

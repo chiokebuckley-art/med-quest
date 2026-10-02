@@ -1,0 +1,2 @@
+import {escape} from './state.js';
+export const stub=s=>`<div class="stub"><div class="eyebrow">CURRICULUM PREVIEW</div><h2>${escape(s.operation)}</h2><p>This operation is coming in a future academy update. You can explore its science now.</p><h3>The planned FIX board</h3><ol>${s.steps.map(x=>`<li>${escape(x)}</li>`).join('')}</ol><div class="actions"><button disabled>Practice tools coming soon</button><button class="primary" data-nav="map">Explore another system</button></div></div>`;

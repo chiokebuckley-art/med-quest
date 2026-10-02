@@ -1,0 +1,9 @@
+{
+  "system": "S2",
+  "thresholds": {
+    "alignDistance": 28,
+    "cast": 95,
+    "snapRadius": 48
+  },
+  "journalMinimum": 2
+}

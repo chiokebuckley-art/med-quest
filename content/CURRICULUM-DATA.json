@@ -1,0 +1,386 @@
+{
+  "systems": [
+    {
+      "id": "S1",
+      "order": 1,
+      "name": "Skin & soft tissue",
+      "status": "playable",
+      "slice": 0,
+      "operation": "Patch the Cut on the Arm",
+      "theme": "Cuts, scrapes, bandage, stitches lite",
+      "targets": [
+        "Skin is the body's outer shield and keeps germs out.",
+        "A scrape or cut is a break in that shield.",
+        "Clean before close - dirt left under a bandage is a bad idea.",
+        "Bandages and gentle stitches help edges meet so skin can heal.",
+        "Hands off real wounds - real care needs a grown-up / clinic."
+      ],
+      "anatomy": [
+        "Epidermis (outer skin)",
+        "Dermis (under layer, simplified)",
+        "Cut / scrape site",
+        "Bandage ghost outline"
+      ],
+      "scenarios": [
+        "Scraped knee after playground fall - dirt + sting, not horror.",
+        "Small forearm cut from cardboard edge - clean line, blue gel mess.",
+        "Bandage put on dirty cut (wrong path) - Pip teaches redo."
+      ],
+      "steps": [
+        "1. notice: Spot cut on arm board (pass: Tap I see the cut)",
+        "2. predict: Choose clean first (pass: Correct hypothesis)",
+        "3. act: Remove blue mess (pass: clear>=90) tool=sponge",
+        "4. act: Antiseptic along guide (pass: cover guide zone) tool=swab",
+        "5. act: Connect dots 1 to 4 (pass: order + path OK) tool=needle",
+        "6. act: Protect while healing (pass: snap to ghost) tool=bandage",
+        "7. observe: Vitals green; closed icon (pass: stable)",
+        "8. journal: Why clean before stitch? (pass: fields>=2)"
+      ],
+      "fairTest": "Does a dirty vs clean sponge leave more mess markers? Count remaining markers; journal which was better.",
+      "journal": "Name one skin job. Why did we sponge before the needle?"
+    },
+    {
+      "id": "S2",
+      "order": 2,
+      "name": "Bones & joints",
+      "status": "playable",
+      "slice": 1,
+      "operation": "Set the Bone",
+      "theme": "Fracture, cast, splint",
+      "targets": [
+        "Bones are the hard frame that holds shape and protects soft parts.",
+        "Joints are places bones meet so we can bend.",
+        "A fracture means a bone broke or cracked (cartoon gap).",
+        "Align -> hold still -> cast/splint helps bone heal straight.",
+        "Real broken bones need real doctors - this game teaches ideas only."
+      ],
+      "anatomy": [
+        "Long bone",
+        "Joint (hinge simplified)",
+        "Fracture gap + fragment",
+        "Cast shell + splint",
+        "X-ray inset"
+      ],
+      "scenarios": [
+        "Arm bone clean break gap after tree-climb slip story.",
+        "Twisted ankle joint - swollen soft pad, rest + wrap.",
+        "Cast put on before align (wrong) - Pip blocks."
+      ],
+      "steps": [
+        "1. notice: See gap on inset (pass: toggle on) tool=xray",
+        "2. predict: Align before cast (pass: correct gate)",
+        "3. act: Ends meet (pass: snap ghost) tool=align",
+        "4. act: Keeps still (pass: snap) tool=splint",
+        "5. act: Hard shell (pass: wrap>=95) tool=cast",
+        "6. observe: Gap closed glow (pass: green check) tool=xray",
+        "7. journal: Why align first? (pass: required)"
+      ],
+      "fairTest": "Loose vs snug cast - which keeps bone ghost aligned after jiggle?",
+      "journal": "What does a cast do? What happens if we cast before aligning?"
+    },
+    {
+      "id": "S3",
+      "order": 3,
+      "name": "Muscles & tendons",
+      "status": "playable",
+      "slice": null,
+      "operation": "Calm the Strain",
+      "theme": "Strain - rest/ice, careful stretch",
+      "targets": [
+        "Muscles pull on bones to make movement.",
+        "Tendons are tough strings connecting muscle to bone.",
+        "A strain is overstretched muscle - needs rest and gentle care.",
+        "In this game, comfort tools are diagram demonstrations; real pain needs adult help.",
+        "Never force a hurt muscle - stop and tell a grown-up in real life."
+      ],
+      "anatomy": [
+        "Muscle band",
+        "Tendon line to bone",
+        "Strain glow zone",
+        "Rest pillow / ice pack"
+      ],
+      "scenarios": [
+        "Calf strain after too much running in PE.",
+        "Sore shoulder from backpack - tired muscle meter.",
+        "Stretching hard while strained (wrong) - rest first."
+      ],
+      "steps": [
+        "1. notice: Find strain glow (pass: tap correct muscle)",
+        "2. predict: Rest first (pass: correct order)",
+        "3. act: Cool comfort (pass: cover>=80) tool=ice",
+        "4. act: Quiet healing (pass: timer complete) tool=rest",
+        "5. act: After rest only (pass: stay in corridor) tool=stretch",
+        "6. act: Support (pass: snap) tool=wrap",
+        "7. journal: Rest before stretch? (pass: required)"
+      ],
+      "fairTest": "Stretch immediately vs rest then stretch - which lowers glow faster?",
+      "journal": "What do muscles do? Why rest a strain before hard stretch?"
+    },
+    {
+      "id": "S4",
+      "order": 4,
+      "name": "Blood & clotting lite",
+      "status": "playable",
+      "slice": null,
+      "operation": "Help the Clot Team",
+      "theme": "Why bleeding stops (cartoon)",
+      "targets": [
+        "Blood carries oxygen and helpers through pipe vessels.",
+        "When a small cut happens, clotting helpers form a soft plug.",
+        "Pressure + bandage help the plug team (idea only).",
+        "Lots of bleeding in real life = get a grown-up / emergency help.",
+        "No gore: blue/teal flow chips or soft coral dots, never spurts."
+      ],
+      "anatomy": [
+        "Vessel pipes under translucent skin",
+        "Platelet helpers",
+        "Clot plug",
+        "Pressure pad + bandage"
+      ],
+      "scenarios": [
+        "Small finger nick - clotting demo.",
+        "Nosebleed calm sit-forward tip card.",
+        "Running around with open nick (wrong)."
+      ],
+      "steps": [
+        "1. notice: See flow chips leaving cut (pass: tap)",
+        "2. act: Helpers stick (pass: hold meter) tool=pressure",
+        "3. act: Slow flow (pass: pose match) tool=elevate",
+        "4. observe: Watch clot form (pass: wait bar) tool=observeHelpers",
+        "5. act: Protect plug (pass: snap) tool=bandage",
+        "6. journal: What helps a clot? (pass: required)"
+      ],
+      "fairTest": "With vs without pressure pad - time for clot meter to fill.",
+      "journal": "Name one job of blood. How do platelet helpers help a small cut?"
+    },
+    {
+      "id": "S5",
+      "order": 5,
+      "name": "Heart & circulation",
+      "status": "playable",
+      "slice": null,
+      "operation": "Steady the Pump Path",
+      "theme": "Pump + pipe vessels; fix-path puzzle",
+      "targets": [
+        "Heart is a pump that pushes blood in a loop.",
+        "Arteries/veins are pipes (out/return colors).",
+        "Healthy habits help the pump.",
+        "A path block puzzle teaches flow - not real transplant surgery.",
+        "Real chest pain / fainting = real emergency - not a game level."
+      ],
+      "anatomy": [
+        "Cartoon heart",
+        "Loop pipes to body and lungs",
+        "Valve gates",
+        "Habit cards"
+      ],
+      "scenarios": [
+        "Path pipe disconnected - reconnect snap.",
+        "Valve flap stuck closed - tap rhythm.",
+        "Lazy habit meter - choose healthy cards."
+      ],
+      "steps": [
+        "1. notice: Weak pulse wave (pass: tap heart)",
+        "2. act: Hear flow (pass: correct zone) tool=stethoscope",
+        "3. act: Restore loop (pass: snap) tool=coupler",
+        "4. act: Open gate (pass: rhythm taps) tool=valve",
+        "5. act: Everyday care (pass: pick 2 healthy) tool=habits",
+        "6. observe: Strong pulse (pass: green waveform)",
+        "7. journal: What does the heart do? (pass: required)"
+      ],
+      "fairTest": "Count pulse waves on habit boost vs no boost (visual meter).",
+      "journal": "Is the heart a pump or a filter? Name one heart-healthy habit."
+    },
+    {
+      "id": "S6",
+      "order": 6,
+      "name": "Lungs & breathing",
+      "status": "playable",
+      "slice": 2,
+      "operation": "Clear the Airway",
+      "theme": "Air in/out; airway clear; calm inhaler/ER",
+      "targets": [
+        "Lungs take oxygen in and send carbon dioxide out.",
+        "Airway is the path from nose/mouth to lungs - keep it clear.",
+        "Calm breathing helps when scared or wheezy.",
+        "Inhaler / helper puff is a tool some kids use - learn respect, not self-dose.",
+        "Real can't-breathe emergency = get adults / call for help."
+      ],
+      "anatomy": [
+        "Nose/mouth",
+        "Trachea",
+        "Bronchi",
+        "Lung pair",
+        "Diaphragm bellows",
+        "Inhaler prop"
+      ],
+      "scenarios": [
+        "Soft clog in airway cartoon.",
+        "Fast scared breathing after fall - calm belly-breath.",
+        "Asthma-like wheeze vignette - adult + inhaler respect."
+      ],
+      "steps": [
+        "1. notice: Low O2 band (pass: tap vitals)",
+        "2. act: Open path (pass: pose match) tool=situp",
+        "3. act: Air needs open tube (pass: remove clog) tool=forceps",
+        "4. act: Calm cycles (pass: 3 cycles) tool=breaths",
+        "5. act: Respect ask adult (pass: correct card order) tool=inhaler",
+        "6. observe: O2 green (pass: stable)",
+        "7. journal: Path of air? (pass: required)"
+      ],
+      "fairTest": "Belly breath vs shoulder shrug - which raises calm meter faster?",
+      "journal": "Trace air from nose to lungs. What should you do if someone really can't breathe?"
+    },
+    {
+      "id": "S7",
+      "order": 7,
+      "name": "Digestion",
+      "status": "playable",
+      "slice": null,
+      "operation": "Explore the Food Path",
+      "theme": "Food path; blockage as plumbing",
+      "targets": [
+        "Food travels: mouth -> esophagus -> stomach -> intestines.",
+        "Digestion breaks food into usable bits (plumbing + factory).",
+        "Upset stomach - rest, water, adult help (ideas).",
+        "Don't invent surgery for tummy aches.",
+        "Real severe pain = real care, not Arcade."
+      ],
+      "anatomy": [
+        "Mouth",
+        "Esophagus",
+        "Stomach",
+        "Intestines",
+        "Food bolus token",
+        "Soft plug"
+      ],
+      "scenarios": [
+        "Follow a food token through a connected educational digestion model.",
+        "Too much junk snack meter.",
+        "Ignoring water when tummy upset."
+      ],
+      "steps": [
+        "1. notice: Trace path (pass: label quiz) tool=viewer",
+        "2. act: Find soft plug (pass: tap bend)",
+        "3. act: Help move (pass: guide strokes) tool=pad",
+        "4. act: Care habits (pass: apply water+rest) tool=water",
+        "5. observe: Bolus passes (pass: exit to intestine)",
+        "6. journal: Name 3 path stops (pass: required)"
+      ],
+      "fairTest": "Water+rest vs ignore-water on comfort meter.",
+      "journal": "List the food path in order. Why is digestion like plumbing?"
+    },
+    {
+      "id": "S8",
+      "order": 8,
+      "name": "Kidneys / urine lite",
+      "status": "playable",
+      "slice": null,
+      "operation": "Clean the Filter",
+      "theme": "Filter idea",
+      "targets": [
+        "Kidneys are filters that clean the blood.",
+        "Cleaned leftover liquid becomes urine stored in the bladder.",
+        "Drinking water helps filters work (habit, not medical dose).",
+        "Pain / can't pee / blood in urine in real life = tell an adult.",
+        "Keep it lite - no graphic content."
+      ],
+      "anatomy": [
+        "Two kidney beans",
+        "Filter mesh",
+        "Ureters",
+        "Bladder balloon",
+        "Water drop helpers"
+      ],
+      "scenarios": [
+        "Filter mesh clogged with waste chips.",
+        "Low water meter.",
+        "Ignoring thirst on hot day."
+      ],
+      "steps": [
+        "1. notice: Dirty mesh (pass: tap kidney)",
+        "2. act: Sort waste chips (pass: correct bins) tool=sorter",
+        "3. act: Flush idea (pass: apply) tool=water",
+        "4. observe: Clear mesh (pass: green)",
+        "5. journal: What do kidneys filter? (pass: required)"
+      ],
+      "fairTest": "High water vs low water - waste chips cleared per minute.",
+      "journal": "Kidneys are like what household tool? Why drink water?"
+    },
+    {
+      "id": "S9",
+      "order": 9,
+      "name": "Brain & nerves lite",
+      "status": "playable",
+      "slice": null,
+      "operation": "Rest the Signal Hub",
+      "theme": "Signals; concussion rest (careful)",
+      "targets": [
+        "Brain is the control hub; nerves are signal wires.",
+        "Signals tell muscles to move and bring touch messages back.",
+        "A head bump with symptoms needs stopping play, adult attention and professional assessment.",
+        "A quieter setting can feel more comfortable; a game quiz cannot assess a head injury.",
+        "Return to sport after suspected concussion needs healthcare professional clearance."
+      ],
+      "anatomy": [
+        "Cartoon brain in helmet outline",
+        "Nerve cable tree",
+        "Signal spark dots",
+        "Rest dark-room card"
+      ],
+      "scenarios": [
+        "After ball bonk story - rest the hub (no gore).",
+        "Tangled signal wire puzzle.",
+        "Jumping back into game too soon (wrong)."
+      ],
+      "steps": [
+        "1. notice: Dizzy sparkles (pass: tap)",
+        "2. act: Rest helps (pass: toggle quiet) tool=dimmer",
+        "3. act: Tell grown-up (pass: affirm) tool=adult",
+        "4. act: Healing quiet (pass: timer) tool=quiet",
+        "5. observe: Check wires (pass: gentle quiz) tool=retest",
+        "6. journal: What are nerves? (pass: required)"
+      ],
+      "fairTest": "Quiet rest vs noisy arcade - which clears dizzy sparkles faster?",
+      "journal": "Brain : hub :: nerves : ____. What do you do after a real head bump?"
+    },
+    {
+      "id": "S10",
+      "order": 10,
+      "name": "Immune / germs vs body",
+      "status": "playable",
+      "slice": null,
+      "operation": "Call the Defense Team",
+      "theme": "Capstone defense team",
+      "targets": [
+        "Immune team guards the body against germs.",
+        "Wash hands, sleep, food care help defenses.",
+        "White-cell heroes tag and clear germs (cartoon).",
+        "Vaccines / doctors are real-world helpers - respect.",
+        "Capstone: combine skin barrier + immune team."
+      ],
+      "anatomy": [
+        "Skin wall",
+        "Lymph stations",
+        "White-cell characters",
+        "Germ blobs",
+        "Habit cards"
+      ],
+      "scenarios": [
+        "Germ blobs on unwashed hands before snack.",
+        "Skin cut open to germs - ties S1.",
+        "Skipping sleep - defense meter drops."
+      ],
+      "steps": [
+        "1. notice: Spot germ blobs (pass: tap)",
+        "2. act: Remove germs (pass: scrub meter) tool=soap",
+        "3. act: Close door (pass: snap) tool=bandage",
+        "4. act: Deploy helpers (pass: drag to germs) tool=cells",
+        "5. act: Boost defense (pass: pick cards) tool=habits",
+        "6. journal: Name 2 defenses (pass: required)"
+      ],
+      "fairTest": "Wash vs no-wash before snack - germ count on hand print plate.",
+      "journal": "List two ways your body fights germs. What is one habit that helps?"
+    }
+  ]
+}
