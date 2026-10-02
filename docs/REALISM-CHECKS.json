@@ -12,5 +12,12 @@
   },
   "modelBytes": 5696176,
   "triangles": 292246,
-  "qualityStatus": "Interim rendering improvement. Photographic real-person target remains unmet; see REALISM-ASSET-BRIEF.md."
+  "qualityStatus": "Interim rendering improvement. Photographic real-person target remains unmet; see REALISM-ASSET-BRIEF.md.",
+  "runtimeRevision": "6e2af8b2cf3d5c7bf1045bdb81284ebf97bf4169",
+  "deploymentRun": 36953544302,
+  "deploymentConclusion": "success",
+  "liveModelAndFaceCloseUp": "verified",
+  "liveConsoleErrors": 0,
+  "liveConsoleWarnings": 0,
+  "liveProductionFilesMatched": 64
 }
