@@ -1,0 +1,15 @@
+{
+  "runtimeRevision": "16caf40a291275eb4759aa7469761b452f753323",
+  "deploymentRun": 36958350957,
+  "deployment": "success",
+  "cellMotion": {
+    "before": "2.14822%",
+    "after": "3.83322%"
+  },
+  "pause": {
+    "before": "10.8332%",
+    "after": "10.8332%"
+  },
+  "console": [],
+  "screenshot": "live-living-lab.png"
+}
