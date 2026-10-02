@@ -8,7 +8,7 @@ Local production preview: http://127.0.0.1:5190/med-quest/
 
 Status: shipped and verified on public HTTPS GitHub Pages.
 
-Current runtime revision: `715b0e693ab37b3dd36be703fa63534b34e57f4e`.
+Current runtime revision: `81510c37d29d5f54374ee57e3d100a28a113aa27`.
 
 Black character update: https://github.com/chiokebuckley-art/med-quest/pull/3; successful deployment https://github.com/chiokebuckley-art/med-quest/actions/runs/36949904171. Live verification of all 64 production files, new artwork and rebuilt model is recorded in `docs/BLACK-CHARACTER-CHECKS.json`.
 
@@ -89,3 +89,9 @@ All ten playable system missions now display detailed human/anatomy artwork. Fre
 ## Skin surface interaction update — October 2, 2026
 
 Replaced blue cleaning circles, colored swab dots and numbered stitch circles with a continuous wipeable gel layer, swab sheen and individual tied threads. Sponge and swab follow the pointer. Thread updates appear while dragging. Small stitch guide marks and keyboard controls preserve usability. A textured dressing finishes the board. Verified physical wiping, direct stitch taps, continuous stitching drag, phone layout and completion; 27 automated checks pass.
+
+## October 2: animated layer explorer
+
+The “Peel back a layer of wonder” section opens with detailed illustrated anatomy and animated teaching overlays. All six layers and fourteen part choices change the visible exhibit. Selected parts have focused views with a surrounding-anatomy toggle. Pause and slow motion are independent of the upper lab. The previous rotatable 3D body remains optional; this release does not make that mesh photorealistic.
+
+PR: https://github.com/chiokebuckley-art/med-quest/pull/9. All 27 tests and the production build passed. Browser checks covered all parts, pause, and switching to/from 3D. See `docs/LAYER-EXHIBIT-CHECKS.json` and `docs/animated-layer-explorer.png`.

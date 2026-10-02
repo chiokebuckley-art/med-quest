@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-10-02T15:47:44.359786+00:00",
+  "section": "Peel back a layer of wonder",
+  "layers": [
+    "Skin",
+    "Muscle",
+    "Bone",
+    "Organs",
+    "Pipes",
+    "Signals"
+  ],
+  "partsVerified": 14,
+  "defaultPresentation": "detailed illustrated anatomy with animated overlays",
+  "partSelectionChangesView": true,
+  "pauseVerifiedByUnchangedComputedTransform": true,
+  "optional3DBodySwitchVerified": true,
+  "browserErrors": [],
+  "automatedTestsPassed": 27,
+  "productionBuild": "passed",
+  "limitation": "This update does not replace the simplified 3D mesh with a photorealistic rigged human."
+}
