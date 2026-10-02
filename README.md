@@ -67,3 +67,5 @@ The diagrams, tools, O2 numbers and outcomes are fictional learning mechanics. B
 Use the source curriculum rubric as a conversation guide: an Explorer names a body part and completes the FIX steps with Pip; a Trainee explains why two tools are chosen and compares a fair test; a Junior Ops learner teaches the idea to a stuffed animal and writes three sentences. The game saves discoveries and practice stars; these labels are reflection prompts, not medical qualifications or automatically assessed ranks.
 
 The realism rendering revision adds broad studio reflections, gentler skin highlights, fine short curl geometry and a face close-up. The current human remains a digital MakeHuman character. The photographic quality target and replacement requirements are recorded in `docs/REALISM-ASSET-BRIEF.md`; artistic realism is not established by automated test results.
+
+The Skin lesson now uses a photorealistic generated Black adult forearm and hand, with practice markers and bandage placement aligned to the forearm. See `docs/SKIN-BOARD-ART.json` for the prompt and `docs/SKIN-LESSON-CHECKS.json` for verification.

@@ -28,3 +28,7 @@ The home hero and ten system lesson images were generated for Med Quest using th
 Three.js is MIT-licensed by the three.js authors. The Meshopt decoder is MIT-licensed by Arseny Kapoulkine. Full notices ship with the production site at `assets/licenses/THREE-LICENSE.txt` and `assets/licenses/MESHOPTIMIZER-LICENSE.txt`. The locked npm dependencies retain their own license files for source development.
 
 The lab motion update retains native CC0 MakeHuman joint influences in the skin mesh as `_MQ_ARM_WEIGHTS`. The runtime applies elbow and shoulder movement to the surface and a matching body-space pose to the internal layers and circulation demonstration.
+
+## Skin lesson artwork
+
+`MQ_S1_realistic_arm.webp` is original AI-generated photorealistic artwork created with the built-in image generator. Source and exact prompt are retained in `SKIN-BOARD-SOURCE.png` and `SKIN-BOARD-ART.json`. This is a two-dimensional educational illustration, not a patient photograph or the Free Lab 3D model.

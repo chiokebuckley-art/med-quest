@@ -1,0 +1,18 @@
+{
+  "lesson": "Learn / Skin & soft tissue / Patch the Cut on the Arm",
+  "tests": {
+    "passed": 25,
+    "failed": 0,
+    "build": "passed"
+  },
+  "browser": {
+    "desktop": "complete clean, swab, ordered stitching and physical bandage drag; Shield protected displayed",
+    "phone": "390x780, entire hand visible, scrollWidth 390",
+    "consoleErrors": []
+  },
+  "evidence": [
+    "skin-lesson-realistic-hand.png",
+    "skin-lesson-bandage-check.png",
+    "skin-lesson-phone.png"
+  ]
+}
