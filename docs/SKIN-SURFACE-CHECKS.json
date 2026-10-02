@@ -19,7 +19,8 @@
     "phoneWidth": 390,
     "phoneScrollWidth": 390,
     "dressingCompleted": "Shield protected",
-    "consoleErrors": []
+    "consoleErrors": [],
+    "fourIndividualTapsAdvanceToDressing": "passed after final-tap transition fix"
   },
   "automatedChecks": 27,
   "screenshots": [

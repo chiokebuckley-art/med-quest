@@ -8,7 +8,7 @@ Local production preview: http://127.0.0.1:5190/med-quest/
 
 Status: shipped and verified on public HTTPS GitHub Pages.
 
-Current runtime revision: `16caf40a291275eb4759aa7469761b452f753323`.
+Current runtime revision: `715b0e693ab37b3dd36be703fa63534b34e57f4e`.
 
 Black character update: https://github.com/chiokebuckley-art/med-quest/pull/3; successful deployment https://github.com/chiokebuckley-art/med-quest/actions/runs/36949904171. Live verification of all 64 production files, new artwork and rebuilt model is recorded in `docs/BLACK-CHARACTER-CHECKS.json`.
 
