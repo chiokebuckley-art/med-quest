@@ -8,7 +8,7 @@ Local production preview: http://127.0.0.1:5190/med-quest/
 
 Status: shipped and verified on public HTTPS GitHub Pages.
 
-Current runtime revision: `6e2af8b2cf3d5c7bf1045bdb81284ebf97bf4169`.
+Current runtime revision: `a4b0a0bc85eb7054465402eaa4c5f85b5e5607a3`.
 
 Black character update: https://github.com/chiokebuckley-art/med-quest/pull/3; successful deployment https://github.com/chiokebuckley-art/med-quest/actions/runs/36949904171. Live verification of all 64 production files, new artwork and rebuilt model is recorded in `docs/BLACK-CHARACTER-CHECKS.json`.
 
@@ -75,3 +75,7 @@ The movement update is published in PR #4 with successful deployment [3695153049
 Broad studio reflections and a physical skin material replace harsh mannequin-style highlights and self-shadow artifacts. Fine short curl geometry replaces the smooth scalp cap; brows are thinner. The exhibit is larger and includes a face close-up. The character and locally authored internal anatomy remain simplified digital artwork, and do not meet a photographic real-person target. `docs/REALISM-ASSET-BRIEF.md` records the required replacement asset and integration work.
 
 Appearance update: PR #5, successful deployment [36953544302](https://github.com/chiokebuckley-art/med-quest/actions/runs/36953544302). Live model and face close-up render without errors/warnings; all 64 production files match the local build. Evidence is recorded in `docs/REALISM-CHECKS.json`, `docs/REALISM-ASSET-CHECKS.json` and `docs/live-realism-*.png`. This verification does not assert that the photographic appearance target has been achieved.
+
+## Skin lesson hand correction
+
+Replaced the cartoon arm in **Learn / Skin & soft tissue / Patch the Cut on the Arm** with an original photorealistic Black adult forearm and hand. All practice overlays and the physical bandage drop align with the new forearm. Fixed the stage progress label after cleaning. PR #6; 25 tests and production build passed. Desktop sequence and physical drag passed; 390px phone view shows the entire hand without horizontal overflow. This change is specific to the Skin lesson, not the Free Lab model. Artwork prompt and browser evidence are in `docs/SKIN-BOARD-ART.json` and `docs/SKIN-LESSON-CHECKS.json`.

@@ -13,6 +13,12 @@
   "evidence": [
     "skin-lesson-realistic-hand.png",
     "skin-lesson-bandage-check.png",
-    "skin-lesson-phone.png"
-  ]
+    "skin-lesson-phone.png",
+    "skin-lesson-progress-check.png",
+    "live-skin-realistic-hand.png"
+  ],
+  "runtimeRevision": "a4b0a0bc85eb7054465402eaa4c5f85b5e5607a3",
+  "deploymentRun": 36957432710,
+  "deploymentConclusion": "success",
+  "live": "Skin mission opened on public site; realistic hand visible; console clean"
 }
