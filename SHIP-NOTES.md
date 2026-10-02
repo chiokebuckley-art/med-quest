@@ -8,7 +8,7 @@ Local production preview: http://127.0.0.1:5190/med-quest/
 
 Status: shipped and verified on public HTTPS GitHub Pages.
 
-Current runtime revision: `a4545d0c8a339c34aecf0a9b0eeda7ebda26a63e`.
+Current runtime revision: `26e1b24f63e59ff231ad19f8d6d3f47ea96a14ac`.
 
 Black character update: https://github.com/chiokebuckley-art/med-quest/pull/3; successful deployment https://github.com/chiokebuckley-art/med-quest/actions/runs/36949904171. Live verification of all 64 production files, new artwork and rebuilt model is recorded in `docs/BLACK-CHARACTER-CHECKS.json`.
 
@@ -67,3 +67,5 @@ Local verification: 21 automated checks pass, including rebuilt mesh decoding, t
 Native skin joint influences now support elbow and shoulder bending with matching movement in the internal layers. Chest breathing, lung expansion and a double heartbeat accompany 160 red blood cells traveling closed heart/body/lung routes. Transparent vessel walls keep cells visible. Follow cells provides a magnified view; pause, hold bend, breathe and slow flow provide exploration controls. Reduced-motion preferences start paused. Cell size, routes and tempo are deliberately simplified.
 
 All 25 automated tests pass, including joint-weight bounds, stable grounded anatomy, continuous closed circulation and picking during arm deformation. All six layers load without browser warnings or errors. Phone controls fit a 390px viewport without horizontal overflow. Pause stopped cell motion: only 192 color bytes differed across two canvas captures, compared with 948,792 bytes while cells were moving. Evidence: `docs/LAB-MOTION-CHECKS.json` and `docs/lab-*.png`.
+
+The movement update is published in PR #4 with successful deployment [36951530498](https://github.com/chiokebuckley-art/med-quest/actions/runs/36951530498). All 64 production files match the tested build (`docs/LAB-MOTION-ASSET-CHECKS.json`). Live six-layer, flow-control and 390px phone checks have zero console errors/warnings (`docs/LAB-MOTION-CHECKS.json`); screenshots are `docs/live-lab-*.png`.

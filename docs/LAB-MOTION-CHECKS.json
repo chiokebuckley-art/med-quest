@@ -18,5 +18,32 @@
     "pausePixelsChanged": 192,
     "movementPixelsChanged": 948792
   },
-  "notes": "Educationally simplified anatomy; enlarged red cells, illustrative vessel paths and tempos. Jointed arm, chest breathing, lung expansion and heartbeat. Paused canvas crop compared over separate observations."
+  "notes": "Educationally simplified anatomy; enlarged red cells, illustrative vessel paths and tempos. Jointed arm, chest breathing, lung expansion and heartbeat. Paused canvas crop compared over separate observations.",
+  "runtimeRevision": "26e1b24f63e59ff231ad19f8d6d3f47ea96a14ac",
+  "pullRequest": "https://github.com/chiokebuckley-art/med-quest/pull/4",
+  "deployment": {
+    "run": 36951530498,
+    "conclusion": "success"
+  },
+  "liveBrowser": {
+    "layers": [
+      "Skin",
+      "Muscle",
+      "Bone",
+      "Organs",
+      "Pipes",
+      "Signals"
+    ],
+    "allReady": true,
+    "pauseResume": true,
+    "slowFlow": true,
+    "showHideBlood": true,
+    "followCells": true,
+    "bloodCells": 160,
+    "phoneWidth": 390,
+    "phoneScrollWidth": 390,
+    "consoleErrors": 0,
+    "consoleWarnings": 0
+  },
+  "liveProductionFilesMatched": 64
 }
