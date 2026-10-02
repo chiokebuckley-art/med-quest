@@ -14,8 +14,8 @@
     "Skin"
   ],
   "meshes": 23,
-  "triangles": 210646,
-  "bytes": 5016520,
+  "triangles": 292246,
+  "bytes": 5696176,
   "partBudgets": [
     {
       "layer": "Skin",
@@ -45,7 +45,7 @@
     {
       "layer": "Face",
       "part": "Hair",
-      "triangles": 1692
+      "triangles": 83292
     },
     {
       "layer": "Clothing",
@@ -137,7 +137,8 @@
     "Educational anatomy, not a clinical atlas. Adapted CC0 surface with original internal anatomy.",
     "Detailed human topology, skin normal/roughness maps, breathing morph, facial features, five fingers, toes and fitted opaque shorts.",
     "Anatomy groups use glTF extras for labels and layer selection.",
-    "Native MakeHuman arm joint influences exported as _MQ_ARM_WEIGHTS for jointed lab movement."
+    "Native MakeHuman arm joint influences exported as _MQ_ARM_WEIGHTS for jointed lab movement.",
+    "Fine close-cropped curl geometry and thinner brows reduce the mannequin-like hair cap."
   ],
   "compression": "EXT_meshopt_compression"
 }

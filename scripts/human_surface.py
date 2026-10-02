@@ -118,12 +118,33 @@ def build_surface(root, tag, ell, tube, skin, hair, eye, iris, pupil, fabric):
    nearby=[v for v in raw if abs(v.x-x)<.005 and abs(v.z-(p.z+.025))<.006]
    front=max((-v.y for v in nearby),default=-p.y)
    pts.append((x,p.z+.023+(0.003 if x==p.x else 0),front+.001))
-  tube('Brow',pts,.0014,hair,'Face')
+  tube('Brow',pts,.00055,hair,'Face')
  # Hair follows the scalp itself, preserving the cranium silhouette.
  scalp_faces=[p for p in body.data.polygons if all(body.data.vertices[i].co.z>1.685 or (body.data.vertices[i].co.z>1.647 and body.data.vertices[i].co.y>-.007) for i in p.vertices)]
  scalp_ids=sorted({i for p in scalp_faces for i in p.vertices});si={old:i for i,old in enumerate(scalp_ids)}
  hm=bpy.data.meshes.new('Close cropped scalp');hm.from_pydata([body.data.vertices[i].co+body.data.vertices[i].normal*.0016 for i in scalp_ids],[],[[si[i] for i in p.vertices] for p in scalp_faces]);hm.update()
  ho=bpy.data.objects.new('Close cropped hair',hm);bpy.context.collection.objects.link(ho);tag(ho,'Face','Hair',hair)
+ # Fine, short curled strands break up the smooth cap silhouette and light response.
+ rng=random.Random(34)
+ curve=bpy.data.curves.new('Close cropped curls','CURVE');curve.dimensions='3D';curve.bevel_depth=.00038;curve.bevel_resolution=1;curve.resolution_u=1
+ for strand in range(1700):
+  polygon=rng.choice(scalp_faces);ids=list(polygon.vertices)
+  a,b,c=[body.data.vertices[i] for i in ids[:3]]
+  u,v=rng.random(),rng.random()
+  if u+v>1:u,v=1-u,1-v
+  center=a.co+(b.co-a.co)*u+(c.co-a.co)*v
+  normal=(a.normal*(1-u-v)+b.normal*u+c.normal*v).normalized()
+  tangent=normal.cross(Vector((0,0,1)))
+  if tangent.length<.01:tangent=normal.cross(Vector((1,0,0)))
+  tangent.normalize();bitangent=normal.cross(tangent).normalized()
+  phase=rng.random()*math.tau;radius=rng.uniform(.0006,.0012)
+  spline=curve.splines.new('POLY');spline.points.add(4)
+  for j,p in enumerate(spline.points):
+   t=j/4;angle=phase+t*math.tau*.8
+   q=center+normal*(.0017+math.sin(t*math.pi)*.0024)+tangent*(math.cos(angle)*radius)+bitangent*(math.sin(angle)*radius)
+   p.co=(*q,1);p.radius=.65+.35*math.sin(t*math.pi)
+ curls=bpy.data.objects.new('Fine close cropped curls',curve);bpy.context.collection.objects.link(curls);bpy.context.view_layer.objects.active=curls;curls.select_set(True);bpy.ops.object.convert(target='MESH');curls.select_set(False);tag(curls,'Face','Hair',hair)
+
  # Garment duplicates the body's hip surface; tailored, no intersecting blobs.
  garment_faces=[p for p in body.data.polygons if abs(sum(body.data.vertices[i].co.x for i in p.vertices)/len(p.vertices))<.19 and .695<sum(body.data.vertices[i].co.z for i in p.vertices)/len(p.vertices)<1.004]
  ids=sorted({i for p in garment_faces for i in p.vertices});gi={old:i for i,old in enumerate(ids)}

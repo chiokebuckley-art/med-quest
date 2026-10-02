@@ -69,3 +69,7 @@ Native skin joint influences now support elbow and shoulder bending with matchin
 All 25 automated tests pass, including joint-weight bounds, stable grounded anatomy, continuous closed circulation and picking during arm deformation. All six layers load without browser warnings or errors. Phone controls fit a 390px viewport without horizontal overflow. Pause stopped cell motion: only 192 color bytes differed across two canvas captures, compared with 948,792 bytes while cells were moving. Evidence: `docs/LAB-MOTION-CHECKS.json` and `docs/lab-*.png`.
 
 The movement update is published in PR #4 with successful deployment [36951530498](https://github.com/chiokebuckley-art/med-quest/actions/runs/36951530498). All 64 production files match the tested build (`docs/LAB-MOTION-ASSET-CHECKS.json`). Live six-layer, flow-control and 390px phone checks have zero console errors/warnings (`docs/LAB-MOTION-CHECKS.json`); screenshots are `docs/live-lab-*.png`.
+
+## Human appearance revision
+
+Broad studio reflections and a physical skin material replace harsh mannequin-style highlights and self-shadow artifacts. Fine short curl geometry replaces the smooth scalp cap; brows are thinner. The exhibit is larger and includes a face close-up. The character and locally authored internal anatomy remain simplified digital artwork, and do not meet a photographic real-person target. `docs/REALISM-ASSET-BRIEF.md` records the required replacement asset and integration work.

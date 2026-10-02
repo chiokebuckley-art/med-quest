@@ -1,0 +1,16 @@
+{
+  "automatedChecks": 25,
+  "productionBuild": "passed",
+  "localBrowser": {
+    "allSixLayersReady": true,
+    "jointMotionPreserved": true,
+    "faceCloseUpAndFullBody": true,
+    "consoleErrors": 0,
+    "consoleWarnings": 0,
+    "phoneWidth": 390,
+    "phoneScrollWidth": 390
+  },
+  "modelBytes": 5696176,
+  "triangles": 292246,
+  "qualityStatus": "Interim rendering improvement. Photographic real-person target remains unmet; see REALISM-ASSET-BRIEF.md."
+}
