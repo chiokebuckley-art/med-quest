@@ -1,0 +1,340 @@
+{
+  "verifiedAt": "2026-10-02T01:14:50.470511+00:00",
+  "runtimeRevision": "a4545d0c8a339c34aecf0a9b0eeda7ebda26a63e",
+  "deploymentRun": 36949904171,
+  "pullRequest": "https://github.com/chiokebuckley-art/med-quest/pull/3",
+  "automatedChecksPassed": 21,
+  "browserChecks": {
+    "homeBlackGuide": true,
+    "systemsBlackGuide": true,
+    "systemCards": 10,
+    "systemImagesLoaded": 10,
+    "modelLoaded": true,
+    "sixLayersLocallyChecked": true,
+    "phone390x780NoOverflow": true,
+    "desktopNoOverflow": true,
+    "consoleErrors": 0
+  },
+  "productionFileChecks": [
+    {
+      "path": "assets/anatomy/MQ_B1_or_room.png",
+      "sha256": "46c173b379d82bdc1439eb6e6c2f4124af19a0d91cf9dac8ffd33de2af23d331",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/anatomy/MQ_B2_er_bay.png",
+      "sha256": "46c173b379d82bdc1439eb6e6c2f4124af19a0d91cf9dac8ffd33de2af23d331",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/anatomy/MQ_C1_layered_board.png",
+      "sha256": "46c173b379d82bdc1439eb6e6c2f4124af19a0d91cf9dac8ffd33de2af23d331",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/anatomy/MQ_C3_lungs.png",
+      "sha256": "46c173b379d82bdc1439eb6e6c2f4124af19a0d91cf9dac8ffd33de2af23d331",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/anatomy/MQ_C4_bone_fracture_kit.png",
+      "sha256": "46c173b379d82bdc1439eb6e6c2f4124af19a0d91cf9dac8ffd33de2af23d331",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/anatomy/MQ_C5_arm_stitch_board.png",
+      "sha256": "46c173b379d82bdc1439eb6e6c2f4124af19a0d91cf9dac8ffd33de2af23d331",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/anatomy/MQ_R10_museum.webp",
+      "sha256": "d9e99bd64e9825af9a2e7a85e7fd6052f26926e347ced3893067fca82f4c4497",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/anatomy/MQ_R13_museum.webp",
+      "sha256": "9081efa9fd4856fba8d7833fa73a1ffe3f9660c7c99dddaf1aa5d1df8a943d03",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/anatomy/MQ_R14_museum.webp",
+      "sha256": "3f5a890f848dc3f37e71d20c179b1e88f4967409d06c6999abaeff9f60fe0704",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/anatomy/MQ_R15_museum.webp",
+      "sha256": "57b77919d82d8ff824388ad0651d97f19039cc48c314cb29b83db90075b400e8",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/anatomy/MQ_R16_museum.webp",
+      "sha256": "be631072846b928a934599fd671c08e4d1369ab85f1fd2e98d3e30091afd7186",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/anatomy/MQ_R17_museum.webp",
+      "sha256": "b2cf5a4f456142c7b47d6d83977a741323288c8ccbd33003d96b0bba11be4457",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/anatomy/MQ_R1_museum.webp",
+      "sha256": "45040ee90e35a872b2fd556e114f8453a2430a313fb2caaba30052bbb3e1887f",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/anatomy/MQ_R2_museum.webp",
+      "sha256": "cd4465170a89cc2baa8d4453405e498e24199e9850d023188433a3fc89524f3e",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/anatomy/MQ_R3_museum.webp",
+      "sha256": "324bb3e721e8b78b81be4d54cb96546f2ba214caf82dd453beeb63d1f3027334",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/anatomy/MQ_R4_museum.webp",
+      "sha256": "b5606663240b21972cfa12f917eb8dc0783ae27a5d551abd43af751a67b32234",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/anatomy/MQ_R6_black_museum_hero.webp",
+      "sha256": "bf92d4644693dd98375f87689d1f084660b356ae17c95ff1e02fe001193f0a8c",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/anatomy/MQ_R6_museum_hero.webp",
+      "sha256": "0378151d4c22b785c195d2880917d0a8fad58dce1f23abfb5dc36abcae048b8f",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/anatomy/MQ_R6_translucent_body.png",
+      "sha256": "46c173b379d82bdc1439eb6e6c2f4124af19a0d91cf9dac8ffd33de2af23d331",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/anatomy/MQ_S1_MAP.png",
+      "sha256": "46c173b379d82bdc1439eb6e6c2f4124af19a0d91cf9dac8ffd33de2af23d331",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/anatomy/MQ_S2_MAP.png",
+      "sha256": "46c173b379d82bdc1439eb6e6c2f4124af19a0d91cf9dac8ffd33de2af23d331",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/anatomy/MQ_S6_AIRWAY.png",
+      "sha256": "46c173b379d82bdc1439eb6e6c2f4124af19a0d91cf9dac8ffd33de2af23d331",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/anatomy/MQ_S6_MAP.png",
+      "sha256": "46c173b379d82bdc1439eb6e6c2f4124af19a0d91cf9dac8ffd33de2af23d331",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/anatomy/PLACEHOLDER.svg",
+      "sha256": "fd5e94c19b836a5d08d9736be1f6c52307294244cb663c4070925c27a5ef4889",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/cutscenes/MQ_R5_or_hands.png",
+      "sha256": "46c173b379d82bdc1439eb6e6c2f4124af19a0d91cf9dac8ffd33de2af23d331",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/cutscenes/MQ_VS0_patch_cut_sb.png",
+      "sha256": "46c173b379d82bdc1439eb6e6c2f4124af19a0d91cf9dac8ffd33de2af23d331",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/cutscenes/MQ_VS1_set_bone_sb.png",
+      "sha256": "46c173b379d82bdc1439eb6e6c2f4124af19a0d91cf9dac8ffd33de2af23d331",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/cutscenes/MQ_VS2_airway_sb.png",
+      "sha256": "46c173b379d82bdc1439eb6e6c2f4124af19a0d91cf9dac8ffd33de2af23d331",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/cutscenes/PLACEHOLDER.svg",
+      "sha256": "fd5e94c19b836a5d08d9736be1f6c52307294244cb663c4070925c27a5ef4889",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/favicon-DYePRJcK.svg",
+      "sha256": "e4bca5cb818c0fd260a6261748a851d4b12bdad17fb16abc552759b6627d2581",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/index-Baw0C3mp.css",
+      "sha256": "9ef63ba5ed799b6efa1b32e9d2358b47e4d54d3ead196543452add773605f7d0",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/index-CURAV0iz.js",
+      "sha256": "f089221c611bc8d822b250197af3fc6af7e58aa78cc12dfbc1f5b1e5c636e78f",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/licenses/MESHOPTIMIZER-LICENSE.txt",
+      "sha256": "f03037ca7bad1e3eb7f4a63fa6084a8baabd5ba30d3c239a9a7f35705d873e26",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/licenses/THREE-LICENSE.txt",
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/models/MQ_human_anatomy.glb",
+      "sha256": "f21a25906368994aa148dd9f5143df3adb35e34731c5a7a02d0c586f2c3dc59a",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/textures/MQ_R1_arm_vessels.png",
+      "sha256": "46c173b379d82bdc1439eb6e6c2f4124af19a0d91cf9dac8ffd33de2af23d331",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/textures/PLACEHOLDER.svg",
+      "sha256": "fd5e94c19b836a5d08d9736be1f6c52307294244cb663c4070925c27a5ef4889",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/textures/vein-flow.svg",
+      "sha256": "b2ebbd7acd995a290ed1e8b3f56eb6cd2c0143f1f671b2ccee5279f1e61231d3",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/tools/MQ_D3_needle.png",
+      "sha256": "46c173b379d82bdc1439eb6e6c2f4124af19a0d91cf9dac8ffd33de2af23d331",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/tools/MQ_D5_sponge.png",
+      "sha256": "46c173b379d82bdc1439eb6e6c2f4124af19a0d91cf9dac8ffd33de2af23d331",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/tools/MQ_D7_cast.png",
+      "sha256": "46c173b379d82bdc1439eb6e6c2f4124af19a0d91cf9dac8ffd33de2af23d331",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/tools/MQ_D9_tray_sheet.png",
+      "sha256": "46c173b379d82bdc1439eb6e6c2f4124af19a0d91cf9dac8ffd33de2af23d331",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/tools/PLACEHOLDER.svg",
+      "sha256": "fd5e94c19b836a5d08d9736be1f6c52307294244cb663c4070925c27a5ef4889",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/ui/MQ_A1_hero.png",
+      "sha256": "46c173b379d82bdc1439eb6e6c2f4124af19a0d91cf9dac8ffd33de2af23d331",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/ui/MQ_CX1_academy.png",
+      "sha256": "46c173b379d82bdc1439eb6e6c2f4124af19a0d91cf9dac8ffd33de2af23d331",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/ui/MQ_CX2_systems_ladder.png",
+      "sha256": "46c173b379d82bdc1439eb6e6c2f4124af19a0d91cf9dac8ffd33de2af23d331",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/ui/MQ_CX3_fix_loop.png",
+      "sha256": "46c173b379d82bdc1439eb6e6c2f4124af19a0d91cf9dac8ffd33de2af23d331",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/ui/MQ_CX4_disclaimer.png",
+      "sha256": "46c173b379d82bdc1439eb6e6c2f4124af19a0d91cf9dac8ffd33de2af23d331",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/ui/MQ_CX5_modes.png",
+      "sha256": "46c173b379d82bdc1439eb6e6c2f4124af19a0d91cf9dac8ffd33de2af23d331",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/ui/MQ_E1_vitals.png",
+      "sha256": "46c173b379d82bdc1439eb6e6c2f4124af19a0d91cf9dac8ffd33de2af23d331",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/ui/MQ_E2_checklist.png",
+      "sha256": "46c173b379d82bdc1439eb6e6c2f4124af19a0d91cf9dac8ffd33de2af23d331",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/ui/MQ_E3_tray.png",
+      "sha256": "46c173b379d82bdc1439eb6e6c2f4124af19a0d91cf9dac8ffd33de2af23d331",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/ui/MQ_E6_journal.png",
+      "sha256": "46c173b379d82bdc1439eb6e6c2f4124af19a0d91cf9dac8ffd33de2af23d331",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/ui/MQ_FL1_layered_body.png",
+      "sha256": "46c173b379d82bdc1439eb6e6c2f4124af19a0d91cf9dac8ffd33de2af23d331",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/ui/MQ_FL2_exploded.png",
+      "sha256": "46c173b379d82bdc1439eb6e6c2f4124af19a0d91cf9dac8ffd33de2af23d331",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/ui/MQ_G1_learn_layout.png",
+      "sha256": "46c173b379d82bdc1439eb6e6c2f4124af19a0d91cf9dac8ffd33de2af23d331",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/ui/MQ_G3_success_journal.png",
+      "sha256": "46c173b379d82bdc1439eb6e6c2f4124af19a0d91cf9dac8ffd33de2af23d331",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/ui/MQ_R19_disclaimer_real.png",
+      "sha256": "46c173b379d82bdc1439eb6e6c2f4124af19a0d91cf9dac8ffd33de2af23d331",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/ui/MQ_S2_XRAY.png",
+      "sha256": "46c173b379d82bdc1439eb6e6c2f4124af19a0d91cf9dac8ffd33de2af23d331",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/ui/MQ_S6_BREATH_COACH.png",
+      "sha256": "46c173b379d82bdc1439eb6e6c2f4124af19a0d91cf9dac8ffd33de2af23d331",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/ui/MQ_S6_INHALER.png",
+      "sha256": "46c173b379d82bdc1439eb6e6c2f4124af19a0d91cf9dac8ffd33de2af23d331",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/ui/PLACEHOLDER.svg",
+      "sha256": "fd5e94c19b836a5d08d9736be1f6c52307294244cb663c4070925c27a5ef4889",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "favicon.svg",
+      "sha256": "e4bca5cb818c0fd260a6261748a851d4b12bdad17fb16abc552759b6627d2581",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "index.html",
+      "sha256": "756ee06c3044ad6281dc64f379f4b32f2dfbd947c482b60993eefa7e33b76fd7",
+      "matchesLocalBuild": true
+    }
+  ]
+}

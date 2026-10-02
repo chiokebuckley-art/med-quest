@@ -8,7 +8,11 @@ Local production preview: http://127.0.0.1:5190/med-quest/
 
 Status: shipped and verified on public HTTPS GitHub Pages.
 
-Runtime revision: `a002350a186b37889a43799536924a24376bd493`.
+Current runtime revision: `a4545d0c8a339c34aecf0a9b0eeda7ebda26a63e`.
+
+Black character update: https://github.com/chiokebuckley-art/med-quest/pull/3; successful deployment https://github.com/chiokebuckley-art/med-quest/actions/runs/36949904171. Live verification of all 64 production files, new artwork and rebuilt model is recorded in `docs/BLACK-CHARACTER-CHECKS.json`.
+
+The original full-curriculum audit below verified revision `a002350a186b37889a43799536924a24376bd493`.
 
 - Full release PR: https://github.com/chiokebuckley-art/med-quest/pull/1 (merged; checks passed).
 - Kidney wording correction: https://github.com/chiokebuckley-art/med-quest/pull/2 (merged; checks passed).
@@ -56,4 +60,4 @@ Med Quest is a game for learning. Not real medical care. For real injuries, tell
 
 The main academy guide is now Black, with natural skin texture and short coiled hair in the generated hero. The same hero appears on the home screen, systems introduction and Emergency lesson fallback. All ten system cards now show realistic museum anatomy images. The interactive body is rebuilt with the CC0 African adult shape target and dark skin texture; editable Blender source and runtime glTF are updated together. Original artwork is retained as a source variant.
 
-Local verification: 21 automated checks pass, including rebuilt mesh decoding, textures, morphs and selectable layers. Production build passes. Desktop and phone layouts, ten card images, home, lesson navigation and all six anatomy layers are checked before publication. Prompts are recorded in docs/ART-PROMPTS.json using built-in image generation.
+Local verification: 21 automated checks pass, including rebuilt mesh decoding, textures, morphs and selectable layers. Production build passes. Desktop and phone layouts, ten card images, home, lesson navigation and all six anatomy layers passed locally. The published home, ten-card systems screen and rebuilt human model load without console errors; all 64 production files match the local build. Prompts are recorded in docs/ART-PROMPTS.json using built-in image generation.
