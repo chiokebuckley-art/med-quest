@@ -6,7 +6,7 @@ const flows={
  S4:['Inside vessels','A steady pad','wait',75,'wait','snap'],
  S5:['Heart','A connected outward and return loop','Heart','snap',['Pulse 1','Pulse 2','Pulse 3'],['Enjoy active play','Get enough sleep']],
  S7:['Mouth','Stomach',['Mouth','Esophagus','Stomach','Intestines'],'Pipe bend',['Guide 1','Guide 2','Guide 3'],['Drink water when thirsty','Tell an adult about pain']],
- S8:['Kidneys','Useful oxygen and nutrients','sort','Drink water',['Kidneys','Ureters','Bladder']],
+ S8:['Kidneys','Needed water and nutrients','sort','Drink water',['Kidneys','Ureters','Bladder']],
  S9:['Brain','Stop play and tell an adult','Quiet space','I bumped my head and do not feel right','wait','Nerves'],
  S10:['White blood cells','Wash hands',[0,1,2,3,4],'snap',['Zone 1','Zone 2','Zone 3'],['Get enough sleep','Enjoy varied food']],
  E1:['Serious trouble breathing','Stay safe and get adult / emergency help',['Tell a trusted adult','Describe the problem and location','Get urgent emergency help'],'It helps me practice asking for help'],

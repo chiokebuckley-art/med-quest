@@ -260,10 +260,10 @@
         "kind": "choice",
         "question": "What should the model filter keep?",
         "options": [
-          "Useful oxygen and nutrients",
+          "Needed water and nutrients",
           "Every waste token"
         ],
-        "answer": "Useful oxygen and nutrients",
+        "answer": "Needed water and nutrients",
         "tool": ""
       },
       {

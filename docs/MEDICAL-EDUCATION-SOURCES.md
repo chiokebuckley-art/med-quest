@@ -10,3 +10,9 @@ The expanded brain and Emergency lessons were checked on October 1, 2026 against
 - American Red Cross, child and baby first aid: https://www.redcross.org/take-a-class/first-aid/performing-first-aid/child-baby-first-aid . Serious emergencies require immediate emergency services and care appropriate to training. Med Quest does not qualify players to provide care.
 
 Curriculum adaptation: S3's range task uses a healthy diagram marker, with an explicit instruction never to force a real painful muscle. S4's short pad and platelet demonstrations are game observations, not a real first-aid protocol or treatment duration. S7 explores a food token in a model and never prescribes manipulations for real abdominal pain. S9's short pause represents stopping play, not healing or clearance. Emergency stories make no real calls and direct learners to trusted adults and local emergency services; 911 is labeled as the US example.
+
+## Kidney filter lesson
+
+NIDDK, Your Kidneys & How They Work: https://www.niddk.nih.gov/health-information/kidney-disease/kidneys-how-they-work
+
+The model teaches waste and extra-water removal while retaining/returning needed water and nutrients. It does not describe kidneys as oxygen filters. No water dose, diagnosis or kidney-disease treatment advice is provided. Verified October 1, 2026.
